@@ -24,7 +24,8 @@ The Connection object contained function(modelData). The parameter refers to rem
 as variable pointing to folder launcher. [The fix](https://github.com/nemomobile-ux/glacier-home/pull/146) is simly
 using different name for variable.
 
-![applauncher](/images/2021-06-06-nemomobile-fixes-round-two/1.gif "Application launcher drag and drop before and after") ![applauncher](/images/2021-06-06-nemomobile-fixes-round-two/2.gif "Application launcher drag and drop before and after")
+![applauncher](/images/2021-06-06-nemomobile-fixes-round-two/1.gif "Application launcher drag and drop before and after"){: width="49%"}
+![applauncher](/images/2021-06-06-nemomobile-fixes-round-two/2.gif "Application launcher drag and drop before and after"){: width="49%"}
 
 # Incorrect drawer size
 
@@ -44,8 +45,8 @@ but the landscape mode was obviously broken. I am not sure about explanation of 
 it was [circle binding loop](https://github.com/nemomobile-ux/qtquickcontrols-nemo/pull/3) which was causing
 incorrect dimension of component.
 
-![drawer](/images/2021-06-06-nemomobile-fixes-round-two/Screenshot_manjaro_2021-06-02_213439.png)
-![drawer](/images/2021-06-06-nemomobile-fixes-round-two/Screenshot_manjaro_2021-06-02_213212.png)
+![drawer](/images/2021-06-06-nemomobile-fixes-round-two/Screenshot_manjaro_2021-06-02_213439.png){: width="49%"}
+![drawer](/images/2021-06-06-nemomobile-fixes-round-two/Screenshot_manjaro_2021-06-02_213212.png){: width="49%"}
 
 Drawer in glacier-components showcase app before and after fix
 
