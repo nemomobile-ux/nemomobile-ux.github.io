@@ -19,7 +19,7 @@ kramdown:
 highlighter: rouge
 plugins:
   - jekyll-sitemap
-
+  - jekyll-feed
 
 # Site owner
 owner:
