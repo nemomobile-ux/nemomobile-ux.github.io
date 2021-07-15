@@ -424,7 +424,7 @@
 
 /* Box */
 
-  $box-padding: 3em;
+  $box-padding: 1em;
 
   .box {
     background: #fff;
@@ -1254,11 +1254,12 @@
     background-repeat:    no-repeat;
     background-size:    cover;
     color: #fff;
-    padding: 2em 0 2em 0;
+    padding-top: 3em;
+    padding-bottom: 1em;
     text-align: center;
 
     :last-child {
-      margin-bottom: 5em;
+      margin-bottom: 1em;
     }
 
     h2, h3, h4, h5, h6 {
@@ -1268,13 +1269,10 @@
     h2 {
       font-size: 3.5em;
       line-height: 1em;
-      margin: 0 0 0.5em 0;
-      padding: 0;
     }
 
     p {
       font-size: 1.25em;
-      margin-bottom: 1.75em;
     }
 
     input[type="submit"],
@@ -1304,8 +1302,6 @@
 /* Main */
 
   #main {
-    padding: 4em 0;
-
     > header {
       text-align: center;
       margin: 0 0 3em 0;
@@ -1327,9 +1323,6 @@
   }
 
   body.landing {
-    #main {
-      margin-top: -14em;
-    }
     #blog {
       margin-top: 2em;
     }
