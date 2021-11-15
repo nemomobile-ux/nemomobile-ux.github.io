@@ -13,16 +13,16 @@ layout: default
 				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
-		</div>
 		{% endif %}
+		</div> <!-- cover -->
 		<p class="date">{{ page.date | date: "%B %e, %Y" }}</p>
 		<h1>{{ page.title }}</h1>
 		{{ content }}
 		<footer class="page-footer">
 			{% if page.categories %}{% include page-author.html %}{% endif %}
 			{% if page.share != false %}{% include share-this.html %}{% endif %}
-      {% include page-meta.html %}
-    </footer>
-	</div>
+			{% include page-meta.html %}
+		</footer>
+	</div> <!-- /.post -->
 </section>
-</div>
+</div> <!-- /.page-wrapper -->
