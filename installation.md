@@ -36,6 +36,6 @@ pacman -S --noconfirm $(pacman -Slq nemomobile)
 
 * enable mce daemon `systemctl enable mce`
 
-* disable device display going blank `mcetool --set-demo-mode=on` `mcetool -j enabled`
+* disable device display going blank `mcetool -j enabled`
 
 * Run `lipstick` or logout, choose Nemomobile, and logging in.
