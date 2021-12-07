@@ -11,7 +11,7 @@ image:
   thumb: ./2021-12-08-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
 ---
 
-Some time ago Erik posted link to NemoMobile images for Volla Phone. I would like to describe exact sted by step
+Some time ago Erik posted link of NemoMobile images for Volla Phone. I would like to describe exact sted by step
 instruction how to install it, but it is not as simple as it might seem. In addition, I'm not entirely sure of
 the initial conditions, because halium relies on parts of Android to remain on the phone. 
 
