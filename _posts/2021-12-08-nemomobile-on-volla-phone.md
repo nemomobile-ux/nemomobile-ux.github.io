@@ -11,8 +11,8 @@ image:
   thumb: ./2021-12-08-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
 ---
 
-Some time ago Erik posted link of NemoMobile images for Volla Phone. I would like to describe exact sted by step
-instruction how to install it, but it is not as simple as it might seem. In addition, I'm not entirely sure of
+Some time ago Erik posted a link to NemoMobile images for Volla Phone. I would like to describe exact step by step
+instructions how to install it, but it is not as simple as it might seem. In addition, I'm not entirely sure of
 the initial conditions, because halium relies on parts of Android to remain on the phone. 
 
 ## Initial state
@@ -20,8 +20,8 @@ the initial conditions, because halium relies on parts of Android to remain on t
 First, I want to be sure that I am able to get into initial state. The SP Flash tool is used for that purpose.
 With this tool you can do phone recovery even if it is stuck in an infinite loop of restarts. So far, 
 it has worked for me, thank God, always. First, I set the path `/home/jmlich/gs290/ubuntu-touch-yggdrasil-ota15-flashtool/MT6763_Android_scatter.txt` and
-press Download button. I don't usually use any other options. However, once I used an additionaly Firmware upgrade option. Then I connect the turned off
-device to USB and wait. In the status bar, you can see the progress of the flashing. The check mark appear when finished.
+press Download button. I don't usually use any other options. However, once I used an additional Firmware upgrade option. Then I connect the turned off
+device to USB and wait. In the status bar, you can see the progress of the flashing. The check mark appears when finished.
 Then the phone can be disconnected and operating system boots.
 
 ![](/images/2021-12-08-nemomobile-on-volla-phone/Screenshot-at-2021-12-05-09-45-38-1024x677.png){: width="400"}
@@ -29,12 +29,12 @@ Then the phone can be disconnected and operating system boots.
 
 ## Installation of TWPR
 
-The TWPR is tool for recovery of the operating system. The abbreavation stands for Team Win Recovery Project.
+The TWPR is tool for recovery of the operating system. The abbreviation stands for Team Win Recovery Project.
 Honestly, I am not sure what exactly it does and why is not used the default recovery system or just fastboot with flash parameter. In any case, I couldn't do it without it.
 
 To switch to recovery mode, you need to turn on the phone by holding down the power button and the volume up
 button at the same time. Unfortunately, the behavior is not always clear or at least I have not been able to
-figure out what I am doing differently. Sometimes a basic menu appears. It have following options: recovery,
+figure out what I am doing differently. Sometimes a basic menu appears. It has the following options: recovery,
 fastboot, and normal boot. Sometimes, however, it seems that the menu is hidden behind the Volla logo. 
 It works exactly the same, you just don't see what you choose. 
 
@@ -82,13 +82,13 @@ Rebooting                                          OKAY [  0.001s]
 Finished. Total time: 0.051s
 ```
 
-Sergey noted that it might be necessary to wipe device in twpr yet.
+Sergey noted that it might still be necessary to wipe device in twpr.
 
-What can NemoMobile on Volla Phone do? Not much! The status is more less same or worse as on the PinePhone. I was able to connect to
-the internet through the Wifi and to update packages. GSM, nor VoiceCalls, nor Internet connection didn't worked. Accelerometers (sensorfw)
+What can NemoMobile on Volla Phone do? Not much! The status is more or less the same or even worse as on the PinePhone. I was able to connect to
+the internet through the Wifi and to update packages. Neither GSM, nor VoiceCalls, nor Internet connection worked. Accelerometers (sensorfw)
 probably needs different configuration. I have explored filesystem for a while, but then I returned my daily driver back to previous OS.
 First test was succesful!
 
 ![](/images/2021-12-08-nemomobile-on-volla-phone/20211118_001-scaled.jpg){: height="500"}
 
-Disclaimer: this blog post describes my own experience only. There is no warranty that you will manage to the same. Think twice before you brick your device.
+Disclaimer: this blog post describes my own experience only. There is no guarantee that you will manage to do the same. Think twice before you brick your device.
