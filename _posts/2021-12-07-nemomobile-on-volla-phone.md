@@ -2,13 +2,13 @@
 layout: post
 title: Nemomobile on Volla Phone
 excerpt: How to install NemoMobile on Volla Phone (yggdrasil)
-modified: 2021-12-08
+modified: 2021-12-07
 author: jmlich
 tags: [main]
 image:
-  feature: ./2021-12-08-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
-  teaser: ./2021-12-08-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
-  thumb: ./2021-12-08-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
+  feature: ./2021-12-07-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
+  teaser: ./2021-12-07-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
+  thumb: ./2021-12-07-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
 ---
 
 Some time ago Erik posted a link to NemoMobile images for Volla Phone. I would like to describe exact step by step
@@ -24,8 +24,8 @@ press Download button. I don't usually use any other options. However, once I us
 device to USB and wait. In the status bar, you can see the progress of the flashing. The check mark appears when finished.
 Then the phone can be disconnected and operating system boots.
 
-![](/images/2021-12-08-nemomobile-on-volla-phone/Screenshot-at-2021-12-05-09-45-38-1024x677.png){: width="400"}
-![](/images/2021-12-08-nemomobile-on-volla-phone/Screenshot-at-2021-12-05-09-49-51.png){: width="400"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/Screenshot-at-2021-12-05-09-45-38-1024x677.png){: width="400"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/Screenshot-at-2021-12-05-09-49-51.png){: width="400"}
 
 ## Installation of TWPR
 
@@ -38,12 +38,12 @@ figure out what I am doing differently. Sometimes a basic menu appears. It has t
 fastboot, and normal boot. Sometimes, however, it seems that the menu is hidden behind the Volla logo. 
 It works exactly the same, you just don't see what you choose. 
 
-![](/images/2021-12-08-nemomobile-on-volla-phone/20211119_013-3-577x1024.jpg){: height="500"}
-![](/images/2021-12-08-nemomobile-on-volla-phone/20211119_017-4.jpg){: height="500"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/20211119_013-3-577x1024.jpg){: height="500"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/20211119_017-4.jpg){: height="500"}
 
 If you do not see what you are selecting, sometimes you select the recovery option and boot to the default recovery system. 
 
-![](/images/2021-12-08-nemomobile-on-volla-phone/20211119_014-2.jpg){: height="500"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/20211119_014-2.jpg){: height="500"}
 
 
 Then you can use `adb reboot bootloader` to boot into flash mode and load twrp.
@@ -56,9 +56,9 @@ fastboot flash recovery twrp.img
 
 Then the twrp itself was waiting for me. The welcome screen with the logo appeared first, then the warning was acknowledged, and finally the twrp was started. 
 
-![](/images/2021-12-08-nemomobile-on-volla-phone/20211119_011-577x1024.jpg){: height="500"}
-![](/images/2021-12-08-nemomobile-on-volla-phone/20211119_002-577x1024.jpg){: height="500"}
-![](/images/2021-12-08-nemomobile-on-volla-phone/20211119_003-scaled.jpg){: height="500"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/20211119_011-577x1024.jpg){: height="500"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/20211119_002-577x1024.jpg){: height="500"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/20211119_003-scaled.jpg){: height="500"}
 
 
 ## Installation of NemoMobile
@@ -89,6 +89,6 @@ the internet through the Wifi and to update packages. Neither GSM, nor VoiceCall
 probably needs different configuration. I have explored filesystem for a while, but then I returned my daily driver back to previous OS.
 First test was succesful!
 
-![](/images/2021-12-08-nemomobile-on-volla-phone/20211118_001-scaled.jpg){: height="500"}
+![](/images/2021-12-07-nemomobile-on-volla-phone/20211118_001-scaled.jpg){: height="500"}
 
 Disclaimer: this blog post describes my own experience only. There is no guarantee that you will manage to do the same. Think twice before you brick your device.
