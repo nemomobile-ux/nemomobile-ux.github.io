@@ -1,0 +1,47 @@
+---
+layout: default
+title: Devices
+description: List of supported devices
+---
+
+
+<div id="page-wrapper">
+
+
+        <!-- Banner -->
+                <section id="banner">
+                        <div class="content">
+                        <h2>{{ page.title }}</h2>
+                        <p>{{ page.description }}</p>
+                        </div>
+                </section>
+
+        <!-- Main -->
+                <section id="blog" class="container" >
+            <div class="row" style="display: flex; flex-wrap: wrap;">
+
+
+<!--  assign sections_sorted = site.data.sections | sort: 'order'  -->
+{% for device in site.devices %}
+
+                <div class="3u 6u(narrower)">
+                    <section class="box blog special">
+                        <span class="image featured post-teaser">
+                            {% if device.image.teaser %}
+                                <img src="{{ '/images/' | append: device.image.teaser | relative_url }}" alt="teaser" itemprop="image">
+                            {% else %}
+                                <img src="{{ '/images/' | append: site.teaser | relative_url }}" alt="teaser" itemprop="image">{% endif %}
+                            <h4>{{ device.name }}</h3>
+                            <!-- p>{{ device.description }}</p -->
+                            <ul class="actions">
+                                <li><a href="{{ device.url | relative_url }}" class="button alt">Learn More</a></li>
+                            </ul>
+                        </a>
+                    </section>
+                </div>
+
+{% endfor %}
+
+            </div>
+        </section>
+</div>

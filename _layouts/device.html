@@ -1,0 +1,116 @@
+---
+layout: default
+---
+<br/>
+<div id="page-wrapper">
+<!-- Main -->
+<section id="main" class="container">
+        <div class="post">
+                <div class="cover cover_{{ page.layout }}">
+                {% if page.image.feature %}
+                <div class="page-feature">
+                        <div class="page-image">
+                                <img src="{{ '/images/' | append: page.image.feature | relative_url }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+                                {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+                        </div><!-- /.page-image -->
+                </div><!-- /.page-feature -->
+                {% endif %}
+                </div> <!-- cover -->
+                <!-- p class="date">{{ page.date | date: "%B %e, %Y" }}</p -->
+		<h1>{{ page.name }}</h1>
+		{{ content }}
+
+	{{ page.description }}
+
+	<!--
+	{{ page.deviceType }}
+	{{ page.portType }}
+	-->
+
+	<div style="clear: both;">
+
+	{% if page.buyLink %}
+		<a href="{{ page.buyLink }}" class="button alt">buy</a>
+	{% endif %}
+
+	{% if page.installLink %}
+		<a href="{{ page.installLink }}" class="button alt">install</a>
+	{% endif %}
+
+	</div>
+
+	{% if page.portStatus.size > 0 %}
+
+		<h2> Features </h2>
+
+		{% for cat in page.portStatus %}
+		    <h3>{{ cat.categoryName }} </h3>
+		    {% for feature in cat.features %}
+
+			    {% if feature.value == "+-" %}
+				    🧩
+			    {% elsif feature.value == "+" %}
+				    ✔
+			    {% elsif feature.value == "-" %}
+				    ⨉
+			    {% elsif feature.value == "/" %}
+				    ➖
+			    {% else %}
+				    {{ feature.value }}
+			    {% endif %}
+
+			    {% if feature.bugTracker %}
+				    <a href="{{feature.bugTracker}}">{{ feature.id }}</a>
+			    {% else %}
+				    {{ feature.id }}
+			    {% endif %}
+
+		    <br/>
+		    {% endfor %}
+		{% endfor %}
+
+	{% endif %}
+
+	{% if page.deviceInfo.size > 0 %}
+		<h2>Specifications</h2>
+
+		<table>
+		{% for info in page.deviceInfo %}
+			<tr>
+				<td> {{ info.id }} </td>
+				<td> {{ info.value }} </td>
+			</tr>
+		{% endfor %}
+		</table>
+
+	{% endif %}
+
+	{% if page.contributors.size > 0 %}
+		<h2>Contributors</h2>
+
+		{% for author in page.contributors %}
+
+	        {% if author.photo %} <img src="{{ author.photo }}"/> {% endif %} <a href="{{ author.forum }}">{{ author.name }}</a><br/>
+
+		 <br/>
+		{% endfor %}
+
+	{% endif %}
+
+	{% if page.externalLinks.size > 0 %}
+		<h2> Links </h2>
+		<ul>
+		{% for link in page.externalLinks %}
+			<li> <!-- {{ link.icon }} --> <a href="{{link.link}}">{{link.name}}</a> </li>
+		{% endfor %}
+		</ul>
+	{% endif %}
+
+
+		<footer class="page-footer">
+                        {% if page.share != false %}{% include share-this.html %}{% endif %}
+      {% include page-meta.html %}
+		</footer>
+	</div> <!-- /.post -->
+</section>
+</div> <!-- /.page-wrapper -->

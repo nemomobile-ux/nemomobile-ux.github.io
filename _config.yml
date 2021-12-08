@@ -8,6 +8,22 @@ locale: en_US
 url: https://nemomobile.net
 baseurl: ""
 
+collections:
+  devices:
+    output: true
+    permalink: /:collection/:name/index.html
+    defaults:
+      layout: "device"
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "devices" # a collection in your site, in plural form
+    values:
+      layout: "device"
+
 # Jekyll configuration
 
 sass:
