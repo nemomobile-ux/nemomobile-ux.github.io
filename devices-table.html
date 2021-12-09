@@ -17,7 +17,7 @@ description: List of supported devices
                 </section>
 
         <!-- Main -->
-                <section id="blog" >
+                <section id="blog" class="container" >
             <div class="row" style="display: flex; flex-wrap: wrap;">
 
 
@@ -28,16 +28,31 @@ description: List of supported devices
 
         {% if device == site.devices[0] %}
         <tr>
-            <th>device</th>
-            {% for cat in device.portStatus %} {% for feature in cat.features %} <th> {{ feature.id }}</th> {% endfor %} {% endfor %}
-        </tr>
+            <th> Device </th>
+            <th> Device Released </th>
+            <th> Linux Kernel </th>
+            {% for cat in device.portStatus %}<th>{{ cat.categoryName }}</th>
+            {% endfor %}
+            </tr>
         {% endif %}
 
         <tr>
-        <td>{{ device.name }}</td>
+        <td><a href="{{ device.url | relative_url }}" >{{ device.name }}</a></td>
+        <td>{{ device.deviceReleased }}</td>
+        <td>{{ device.linuxKernel }}</td>
         {% if device.portStatus.size > 0 %}
-                {% for cat in device.portStatus %} {% for feature in cat.features %} <td class="{{cat.categoryName}} {{ feature.id }}"> {{ feature.value }} </td> {% endfor %} {% endfor %}
+                {% for cat in device.portStatus %}
+                    {% assign working = 0 %} {% assign notworking = 0 %}
+                    {% for feature in cat.features %}
+                        {% if feature.value == "+" %}
+                            {% assign working = working | plus: 1 %}
+                        {% else %}
+                            {% assign notworking = notworking | plus: 1 %}
+                        {% endif %}
 
+                {% endfor %}
+                <td style="{% if notworking == 0%}color: #00ff00;{%elsif working == 0%}color: #ff0000{%else%}color: #f57900{%endif%}"  > {{ working }} / {{ working | plus: notworking }} </td>
+                {% endfor %}
         {% endif %}
         </tr>
 {% endfor %}
