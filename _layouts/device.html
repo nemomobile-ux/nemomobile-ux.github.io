@@ -22,10 +22,16 @@ layout: default
 
 	{{ page.description }}
 
-	<!--
-	{{ page.deviceType }}
-	{{ page.portType }}
-	-->
+<!--
+	<table>
+		<tr> <td> Device released </td> <td> {{ page.deviceReleased }} </td> </tr>
+		<tr> <td> Linux Kernel </td> <td> {{ page.linuxKernel }} </td> </tr>
+		<tr> <td> Nemo Version </td> <td> {{ page.nemoVersion }} </td> </tr>
+		<tr> <td> Device Type </td> <td> 	{{ page.deviceType }} </td> </tr>
+		<tr> <td> Port Type </td> <td> 	{{ page.portType }} </td> </tr>
+	</table>
+-->
+
 
 	<div style="clear: both;">
 
@@ -47,13 +53,13 @@ layout: default
 		    <h3>{{ cat.categoryName }} </h3>
 		    {% for feature in cat.features %}
 
-			    {% if feature.value == "+-" %}
+			    {% if feature.value == "P" %}
 				    🧩
-			    {% elsif feature.value == "+" %}
+			    {% elsif feature.value == "Y" %}
 				    ✔
-			    {% elsif feature.value == "-" %}
+			    {% elsif feature.value == "N" %}
 				    ⨉
-			    {% elsif feature.value == "/" %}
+			    {% elsif feature.value == "-" %}
 				    ➖
 			    {% else %}
 				    {{ feature.value }}
@@ -84,6 +90,7 @@ layout: default
 		</table>
 
 	{% endif %}
+
 
 	{% if page.contributors.size > 0 %}
 		<h2>Contributors</h2>

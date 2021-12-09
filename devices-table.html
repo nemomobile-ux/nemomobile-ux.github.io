@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Devices
-description: List of supported devices
+description: Overview of which features works and which doesn't
 ---
 
 
@@ -44,7 +44,7 @@ description: List of supported devices
                 {% for cat in device.portStatus %}
                     {% assign working = 0 %} {% assign notworking = 0 %}
                     {% for feature in cat.features %}
-                        {% if feature.value == "+" %}
+                        {% if feature.value == "Y" %}
                             {% assign working = working | plus: 1 %}
                         {% else %}
                             {% assign notworking = notworking | plus: 1 %}
@@ -57,6 +57,9 @@ description: List of supported devices
         </tr>
 {% endfor %}
 </table>
+
+<div style="clear:both; "><a href="{{ '/devices' | relative_url }}" class="button alt">List</a><br/><br/></div>
+
 
             </div>
         </section>
