@@ -1,0 +1,47 @@
+---
+layout: default
+title: Devices
+description: List of supported devices
+---
+
+
+<div id="page-wrapper">
+
+
+        <!-- Banner -->
+                <section id="banner">
+                        <div class="content">
+                        <h2>{{ page.title }}</h2>
+                        <p>{{ page.description }}</p>
+                        </div>
+                </section>
+
+        <!-- Main -->
+                <section id="blog" >
+            <div class="row" style="display: flex; flex-wrap: wrap;">
+
+
+
+<!--  assign sections_sorted = site.data.sections | sort: 'order'  -->
+<table>
+{% for device in site.devices %}
+
+        {% if device == site.devices[0] %}
+        <tr>
+            <th>device</th>
+            {% for cat in device.portStatus %} {% for feature in cat.features %} <th> {{ feature.id }}</th> {% endfor %} {% endfor %}
+        </tr>
+        {% endif %}
+
+        <tr>
+        <td>{{ device.name }}</td>
+        {% if device.portStatus.size > 0 %}
+                {% for cat in device.portStatus %} {% for feature in cat.features %} <td class="{{cat.categoryName}} {{ feature.id }}"> {{ feature.value }} </td> {% endfor %} {% endfor %}
+
+        {% endif %}
+        </tr>
+{% endfor %}
+</table>
+
+            </div>
+        </section>
