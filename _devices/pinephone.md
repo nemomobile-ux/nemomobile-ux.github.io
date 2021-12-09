@@ -6,6 +6,8 @@ image:
 name: "PinePhone"
 deviceType: "phone"
 portType: "Native"
+deviceReleased:
+linuxKernel:
 installLink: "/installation/"
 buyLink: "https://pine64.com/"
 tag: "promoted"

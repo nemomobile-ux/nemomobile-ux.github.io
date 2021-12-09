@@ -6,6 +6,8 @@ image:
 name: "Device"
 deviceType: "phone"
 portType: "Native"
+deviceReleased:
+linuxKernel:
 installLink: "https://nemomobile.net/Installation"
 buyLink: "https://liberapay.com/NemoMobile/"
 tag: "promoted"

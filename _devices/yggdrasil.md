@@ -6,6 +6,8 @@ image:
 name: "Volla Phone"
 deviceType: "phone"
 portType: "Halium 9.0"
+deviceReleased:
+linuxKernel:
 buyLink: "https://volla.online/de/shop/"
 description: "Volla Phone, A startup focused on simplicity and privacy for the average user. It’s a solid mid-range device with eight-core, produced by Gigaset. This device falls nicely in the hands, and it has an outstanding screen/body ratio. On the other hand, it has slight incompatibility with the UT navigation bar. But, overall, it is working very smoothly and relatively responsive."
 tag: "promoted"
