@@ -33,15 +33,17 @@ We are looking for designers and artists who can create graphical mockup of user
 
 ## Testing
 
-The changes are some time done without testing on all devices. Follow changes in repositories and try
-if freshly updated components works correctly on your platform. [Let us know about problems]({% link troubleshooting.md %}).
+* Check status of feature with your device on current version. Update [status](https://github.com/nemomobile-ux/nemomobile-ux.github.io/tree/master/_devices)
+* Try to update to most recent version if something doesn't work.
+* Try to find out what is problem [in the code]({% link contributing.md %}#code). your self if you have right expertise.
+* [Let us know about problems]({% link troubleshooting.md %}).
 
 ## Infrastructure
 
 The free capacity of server can be utilized for different tasks. For example:
 
 * repository and image mirroring
-* continuous integration - automated build of images
+* continuous integration - automated build of packages and images
 
 ## Connection with community
 

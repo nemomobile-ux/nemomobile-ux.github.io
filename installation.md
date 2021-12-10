@@ -4,7 +4,7 @@ permalink: /installation/
 title: "Installation"
 ---
 
-Glacier UI is the next interface for Nemo Mobile.
+Glacier UI is the next interface for NemoMobile.
 It is a new UI, created and built by the community, and made with the latest technologies like Qt 5 and Wayland.
 For developing look on [Software Development Kit](/sdk/) and our [Application Programming Interface](/qtquickcontrols-nemo/) documentation.
 
@@ -23,19 +23,18 @@ xz -dc "Manjaro-ARM-nemomobile-pinephone-0.5.img.xz" | dd if=/dev/stdin of=/dev/
 ## Virtualbox
 
 * Install standard [Manjaro Linux](https://manjaro.org/).
-* Add repository nemomobile repository into `/etc/pacman.conf`. It must be first in the list.
+* Add repository `nemomobile` repository into `/etc/pacman.conf`. It must be first in the list.
 ```
 [nemomobile]
 SigLevel = Optional
 Server = https://img.nemomobile.net/manjaro/10.2021/devel/x86_64/
 ```
-* Install Nemomobile packages
+
+* Install NemoMobile packages
 ```
 pacman -S --noconfirm $(pacman -Slq nemomobile)
 ```
 
 * enable mce daemon `systemctl enable mce`
-
 * disable device display going blank `mcetool -j enabled`
-
-* Run `lipstick` or logout, choose Nemomobile, and logging in.
+* Run `lipstick` or logout, choose NemoMobile, and logging in.
