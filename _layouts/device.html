@@ -97,7 +97,7 @@ layout: default
 
 		{% for author in page.contributors %}
 
-	        {% if author.photo %} <img src="{{ author.photo }}"/> {% endif %} <a href="{{ author.forum }}">{{ author.name }}</a><br/>
+	        {% if author.photo %} <img src="{{ author.photo }}" width=50 height=50/> {% endif %} <a href="{{ author.forum }}">{{ author.name }}</a><br/>
 
 		 <br/>
 		{% endfor %}
