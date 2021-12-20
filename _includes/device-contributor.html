@@ -1,0 +1,21 @@
+{% if author.id %}
+  {% assign user = site.data.authors[author.id] %}{% else %}{% assign user = site.owner %}
+{% endif %}
+
+
+<div class="3u 6u(narrower)">
+    <section class="box blog special">
+        <span class="image featured post-teaser">
+
+{% if user.avatar != '' and user.avatar != blank and user.avatar != nil %}
+        <img src="{{ '/images/' | append: user.avatar  | relative_url }}" alt="{{ user.name }}"  itemprop="image" />
+{% else %}
+        <img src="{{ '/images/' | append: site.owner.avatar  | relative_url }}" alt="{{ user.name }}" itemprop="image" />
+{% endif %}
+    <h4>
+{% if user.web %}<a href="{{ user.web }}" itemprop="author">{{ user.name }}</a>{% else %}<span itemprop="author">{{ user.name }}</span>{% endif %}    
+    </h4>
+    <p class="author-bio">{{ user.bio }}</p>
+        
+    </span></section>
+</div>

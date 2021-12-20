@@ -94,13 +94,12 @@ layout: default
 
 	{% if page.contributors.size > 0 %}
 		<h2>Contributors</h2>
+                <div class="row" style="display: flex; flex-wrap: wrap;">
 
 		{% for author in page.contributors %}
-
-	        {% if author.photo %} <img src="{{ author.photo }}" width=50 height=50/> {% endif %} <a href="{{ author.forum }}">{{ author.name }}</a><br/>
-
-		 <br/>
+                    {% include device-contributor.html %}
 		{% endfor %}
+		</div>
 
 	{% endif %}
 

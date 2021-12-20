@@ -154,9 +154,7 @@ deviceInfo:
   - id: "weight"
     value: "190 g"
 contributors:
-  - name: Erik Inkinen
-    forum: "https://twitter.com/erikinkinen"
-    photo: "https://pbs.twimg.com/profile_images/1042153107969327105/SE6-E-1F_400x400.jpg"
+  - id: erik_inkinen
 externalLinks:
   - name: "Device source"
     link: "https://github.com/manjaro-libhybris/volla-yggdrasil-post-install"
