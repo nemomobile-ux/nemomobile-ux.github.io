@@ -159,6 +159,9 @@ deviceInfo:
     value: "160.5mm x 76.6mm x 9.2mm"
   - id: "weight"
     value: "185 grams"
+contributors:
+  - id: neochapay
+  - id: jmlich
 externalLinks:
   - name: "Ubuntu Touch subforum on Pine64 Forum"
     link: "https://forum.pine64.org/forumdisplay.php?fid=132"
