@@ -47,7 +47,7 @@ gsettings set org.freedesktop.Tracker3.Miner.Files removable-days-threshold 0
 * [glacier-browser](https://github.com/nemomobile-ux/glacier-browser) – needs more user experience. Currently, It opens everything into new tab.
 * [glacer-alarmclock](https://github.com/jmlich/glacier-alarmclock/) – proof of concept – how should be alarm triggered with timed?
 * [glacier-calendar](https://github.com/nemomobile-ux/glacier-calendar/) – proof of concept – missing nemo-qml-plugin-calendar
-* waydroid, flatpak - (keyboard)[https://github.com/sailfishos-flatpak/pkg-flatpak-maliit-plugin] and others, desktop apps integration (keyboard, windows)
+* waydroid, flatpak - [keyboard](https://github.com/sailfishos-flatpak/pkg-flatpak-maliit-plugin) and others, desktop apps integration (keyboard, windows)
 
 ## Hardware support
 
