@@ -6,7 +6,7 @@ modified: 2021-12-11
 author: jmlich
 tags: [main]
 image:
-#  feature: ./2021-12-11-nemomobile-at-openalt-980.jpg
+  feature: ./2021-12-11-nemomobile-at-openalt-980.jpg
   teaser: ./2021-12-11-nemomobile-at-openalt-620.jpg
   thumb: ./2021-12-11-nemomobile-at-openalt.jpg
 ---
