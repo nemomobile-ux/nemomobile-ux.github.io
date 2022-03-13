@@ -506,6 +506,10 @@ a.btn-social:hover {
           padding: $box-padding;
           width: 50%;
 
+          a {
+              border-bottom: 0
+          }
+
           :last-child {
             margin-bottom: 0;
           }
