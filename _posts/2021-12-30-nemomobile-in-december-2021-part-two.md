@@ -4,7 +4,7 @@ title: NemoMobile in December/2021 part two
 excerpt:
 modified: 2021-12-30
 author: jmlich
-tags: [main]
+tags: ["Keyboard", "Calendar", "Alarm clock", "Translations"]
 image:
   feature: ./2021-12-30-nemomobile-in-december-2021-part-two/image20211230_191547043.jpg
   teaser: ./2021-12-30-nemomobile-in-december-2021-part-two/image20211230_191547043.jpg

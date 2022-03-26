@@ -4,7 +4,7 @@ title: Nemomobile in March/2022
 excerpt: 
 modified: 2022-03-25
 author: jmlich
-tags: gps contacts calendar
+tags: ["GPS", "Contacts", "Calendar"]
 image:
   feature: ./2022-03-25-nemomobile-in-march-2022/index.jpg
   teaser: ./2022-03-25-nemomobile-in-march-2022/index.jpg

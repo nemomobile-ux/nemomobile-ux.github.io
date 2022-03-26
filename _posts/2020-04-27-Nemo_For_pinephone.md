@@ -3,7 +3,7 @@ layout: post
 title: Nemo for PinePhone v0.8
 modified: 2020-04-27
 author: neochapay
-tags: [main]
+tags: ["PinePhone", "Release"]
 image:
   teaser: pinephone-620.jpg
   thumb: pinephone.jpg

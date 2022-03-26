@@ -4,7 +4,7 @@ title: Put your hand to the work on Nemomobile
 excerpt:
 modified: 2021-12-30
 author: jmlich
-tags: [main]
+tags: ["Bugs"]
 image:
   feature: ./2022-01-03-put-your-hand-to-the-work-on-nemomobile/broken-nemo.jpg
   teaser: ./2022-01-03-put-your-hand-to-the-work-on-nemomobile/broken-nemo.jpg

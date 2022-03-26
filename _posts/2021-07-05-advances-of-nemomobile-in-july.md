@@ -3,7 +3,7 @@ layout: post
 title: Advances of Nemomobile in July/2021
 modified: 2021-07-05
 author: jmlich
-tags: [main]
+tags: ["Keyboard", "USB moded"]
 image:
   teaser: 2021-07-05-advances-of-nemomobile-in-july/IMG_8578-1-1024x576-620.jpg
   thumb: 2021-07-05-advances-of-nemomobile-in-july/IMG_8578-1-1024x576.jpg

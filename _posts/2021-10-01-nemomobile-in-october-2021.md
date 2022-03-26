@@ -3,7 +3,7 @@ layout: post
 title: Nemomobile in October/2021
 modified: 2021-10-01
 author: jmlich
-tags: [main]
+tags: ["Translations", "Waydroid"]
 image:
   feature: ./2021-10-01-nemomobile-in-october-2021/nemo-pinephone-n950-980.jpg
   teaser: ./2021-10-01-nemomobile-in-october-2021/nemo-pinephone-n950-620.jpg

@@ -4,7 +4,7 @@ title: Nemomobile in February 2022
 excerpt: 
 modified: 2022-02-25
 author: jmlich
-tags: [main]
+tags: ["GPS", "USB moded", "Alarm clock"]
 image:
   feature: ./2022-02-25-nemomobile-in-february-2022/gps.jpg
   teaser: ./2022-02-25-nemomobile-in-february-2022/gps.jpg
