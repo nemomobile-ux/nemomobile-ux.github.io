@@ -5,7 +5,7 @@ modified: 2020-03-24
 categories: main
 excerpt: News and updates
 image: 
-  feature: wake_up_nemo_f-980.png
+  feature: wake_up_nemo-980.png
   teaser: wake_up_nemo-620.png
   thumb: wake_up_nemo.png
 published: true
