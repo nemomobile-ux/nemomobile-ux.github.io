@@ -20,7 +20,9 @@ description:
                 <section id="blog" class="container" >
             <div class="row" style="display: flex; flex-wrap: wrap;">
 
-{% for tag in site.tags %}
+
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
 <div style="clear: both; width: 100%" id="{{ tag[0] | slugify: 'pretty' }}">
 
     <h3>{{ tag[0] }}</h3>
