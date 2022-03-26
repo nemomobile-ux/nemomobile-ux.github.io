@@ -4,7 +4,7 @@ title: Nemomobile at OpenAlt Conference
 excerpt: OpenAlt is Czech conference about Open communities
 modified: 2021-12-11
 author: jmlich
-tags: [main]
+tags: ["Conference"]
 image:
   feature: ./2021-12-11-nemomobile-at-openalt-980.jpg
   teaser: ./2021-12-11-nemomobile-at-openalt-620.jpg

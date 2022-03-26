@@ -4,7 +4,7 @@ title: Nemomobile in December/2021
 excerpt: Halium devices, PineTab, PinePhone/+Pro, Package manager, Weather, Pure maps, Fixed DPI, improved voice calls, SMS, and more..
 modified: 2021-12-03
 author: jmlich
-tags: [main]
+tags: ["Package manager", "Weather", "Pure Maps", "Dialer", "Messages", "Release"]
 image:
   feature: ./2021-12-03-nemomobile-in-december-2021/nemo-on-volla2-980.jpg
   teaser: ./2021-12-03-nemomobile-in-december-2021/nemo-on-volla2-620.jpg

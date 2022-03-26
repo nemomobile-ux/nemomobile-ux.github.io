@@ -1,0 +1,38 @@
+---
+layout: default
+title: Tags
+description:
+---
+
+
+<div id="page-wrapper">
+
+
+        <!-- Banner -->
+                <section id="banner">
+                        <div class="content">
+                        <h2>{{ page.title }}</h2>
+                        <p>{{ page.description }}</p>
+                        </div>
+                </section>
+
+        <!-- Main -->
+                <section id="blog" class="container" >
+            <div class="row" style="display: flex; flex-wrap: wrap;">
+
+{% for tag in site.tags %}
+<div style="clear: both; width: 100%" id="{{ tag[0] | url_encode }}">
+
+    <h3>{{ tag[0] }}</h3>
+    <ul>
+        {% for post in tag[1] %}
+            <li>{{post.modified}} <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %}
+
+
+            </div>
+        </section>
+</div>

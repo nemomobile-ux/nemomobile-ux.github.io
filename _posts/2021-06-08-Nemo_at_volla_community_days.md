@@ -3,7 +3,7 @@ layout: post
 title: Nemo Mobile at Volla Community Days 2021
 modified: 2021-06-07
 author: pherjung
-tags: [main]
+tags: ["Conference"]
 image:
   teaser: presentation-620.png
   thumb: presentation.png

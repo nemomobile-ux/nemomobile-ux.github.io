@@ -3,7 +3,7 @@ layout: post
 title: Glacier on postmarketOS
 modified: 2021-04-21
 author: bart_ribbers
-tags: [main]
+tags: ["postmarketOS"]
 image:
   teaser: qemu-nemomobile-postmarketos-620.png
   thumb: qemu-nemomobile-postmarketos.png

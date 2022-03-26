@@ -3,7 +3,7 @@ layout: post
 title: First development image based on Manjaro
 modified: 2021-04-02
 author: neochapay
-tags: [main]
+tags: ["Manjaro"]
 image:
   teaser: pinephone-nemomobile-manjaro-620.png
   thumb: pinephone-nemomobile-manjaro.png

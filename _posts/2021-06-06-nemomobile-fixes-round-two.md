@@ -3,7 +3,7 @@ layout: post
 title: Nemomobile fixes round two
 modified: 2021-05-28
 author: jmlich
-tags: [main]
+tags: ["Gallery"]
 image:
   teaser: 2021-06-06-nemomobile-fixes-round-two/Screenshot_manjaro_2021-06-02_213439-620.png
   thumb: 2021-06-06-nemomobile-fixes-round-two/Screenshot_manjaro_2021-06-02_213439.png

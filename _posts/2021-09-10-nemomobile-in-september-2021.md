@@ -3,7 +3,7 @@ layout: post
 title: Nemomobile in September/2021
 modified: 2021-09-10
 author: jmlich
-tags: [main]
+tags: ["Web browser", "Test tool", "Translations"]
 image:
   feature: ./2021-09-10-nemomobile-in-september-2021/nemo-landscape-keyboard-980.jpg
   teaser: ./2021-09-10-nemomobile-in-september-2021/nemo-landscape-keyboard-620.jpg

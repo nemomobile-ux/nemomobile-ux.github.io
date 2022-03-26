@@ -4,7 +4,7 @@ title: Nemomobile on Volla Phone
 excerpt: How to install NemoMobile on Volla Phone (yggdrasil)
 modified: 2021-12-07
 author: jmlich
-tags: [main]
+tags: ["Volla phone", "yggdrasil"]
 image:
   feature: ./2021-12-07-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
   teaser: ./2021-12-07-nemomobile-on-volla-phone/20211119_004-1-1024x577.jpg
