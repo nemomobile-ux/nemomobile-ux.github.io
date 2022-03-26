@@ -3,7 +3,7 @@ layout: post
 title: Begining with Nemomobile
 modified: 2021-04-30
 author: jmlich
-tags: [main]
+tags: ["Packaging"]
 image:
   teaser: 2021-04-30-begining-with-nemomobile/Screenshot_manjaro.png 
   thumb: 2021-04-30-begining-with-nemomobile/Screenshot_manjaro.png 

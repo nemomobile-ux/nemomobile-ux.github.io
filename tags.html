@@ -21,7 +21,7 @@ description:
             <div class="row" style="display: flex; flex-wrap: wrap;">
 
 {% for tag in site.tags %}
-<div style="clear: both; width: 100%" id="{{ tag[0] | url_encode }}">
+<div style="clear: both; width: 100%" id="{{ tag[0] | slugify: 'pretty' }}">
 
     <h3>{{ tag[0] }}</h3>
     <ul>

@@ -3,7 +3,7 @@ layout: post
 title: Own Nemomobile image
 modified: 2021-06-19
 author: jmlich
-tags: ["Web browser"]
+tags: ["Web browser", "Image build"]
 image:
   teaser: 2021-06-19-own-nemomobile-image/Screenshot_manjaro_2021-06-19_150855-620.png
   thumb: 2021-06-19-own-nemomobile-image/Screenshot_manjaro_2021-06-19_150855.png

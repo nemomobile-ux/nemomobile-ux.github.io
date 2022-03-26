@@ -4,7 +4,6 @@ title: Wake up nemo
 modified: 2020-03-24
 categories: main
 excerpt: News and updates
-tags: [main]
 image: 
   feature: wake_up_nemo_f-980.png
   teaser: wake_up_nemo-620.png

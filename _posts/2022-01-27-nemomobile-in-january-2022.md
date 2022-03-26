@@ -4,7 +4,7 @@ title:  NemoMobile in January/2022
 excerpt: FOSDEM talk, PinePhone Pro image, PineTab image, Release 0.7.1
 modified: 2022-01-27
 author: jmlich
-tags: ["Release", "PinePhone Pro"]
+tags: ["Release", "PinePhone Pro", "PineTab"]
 image:
   feature: ./2022-01-27-nemomobile-in-january-2022/fosdem-talk-980.jpeg
   teaser: ./2022-01-27-nemomobile-in-january-2022/fosdem-talk-620.jpeg
