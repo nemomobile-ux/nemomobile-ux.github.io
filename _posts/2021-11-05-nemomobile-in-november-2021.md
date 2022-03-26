@@ -4,7 +4,7 @@ title: Nemomobile in November/2021
 excerpt: Release 0.6, boot splash, device lock, policy kit agent, and more
 modified: 2021-11-05
 author: jmlich
-tags: ["Release"]
+tags: ["Release", "Package manager", "Device lock"]
 image:
   feature: ./2021-11-05-nemomobile-in-november-2021/bootsplash-landscape.gif
   teaser: ./2021-11-05-nemomobile-in-november-2021/bootsplash-landscape.gif
