@@ -957,10 +957,12 @@ a.btn-social:hover {
       width: 100%;
     }
 
+
     &.small {
       font-size: 0.7em;
       height: (_size(element-height) * 0.75);
       line-height: (_size(element-height) * 0.75);
+      padding: 0 0.7em;
     }
 
     &.big {
