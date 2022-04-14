@@ -13,8 +13,8 @@ Lipstick is a project aimed at offering easy to modify user experiences for vary
 
 For developing of applications please look at [Components](/qtquickcontrols-nemo/).
 
-![app launcher](/images/app-launcher-325.png){: width="33%" }
-![task switcher](/images/task-switcher-325.png){: width="33%" }
-![notifications](/images/notifications-325.png){: width="33%" }
-![screen saver](/images/screensaver-325.png){: width="33%" }
+[![app launcher](/images/app-launcher-325.png){: width="33%" }](/images/app-launcher.png)
+[![task switcher](/images/task-switcher-325.png){: width="33%" }](/images/task-switcher.png)
+[![notifications](/images/notifications-325.png){: width="33%" }](/images/notifications.png)
+[![screen saver](/images/screensaver-325.png){: width="33%" }](/images/screensaver.png)
 
