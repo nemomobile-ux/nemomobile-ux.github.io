@@ -18,3 +18,75 @@ For developing of applications please look at [Components](/qtquickcontrols-nemo
 [![notifications](/images/notifications-325.png){: width="33%" }](/images/notifications.png)
 [![screen saver](/images/screensaver-325.png){: width="33%" }](/images/screensaver.png)
 
+## Applications
+
+### Dialer
+
+[![dialer](/images/apps/dialer-320.png)](/images/apps/dialer.png)
+
+### Messages
+
+[![messages](/images/apps/messages-320.png)](/images/apps/messages.png)
+[![messages-2](/images/apps/messages2-320.png)](/images/apps/messages2.png)
+
+### Contacts
+
+[![contacts](/images/apps/contacts-320.png)](/images/apps/contacts.png)
+[![contacts](/images/apps/contacts2-320.png)](/images/apps/contacts2.png)
+[![contacts](/images/apps/contacts3-320.png)](/images/apps/contacts3.png)
+[![contacts](/images/apps/contacts4-320.png)](/images/apps/contacts4.png)
+
+### Settings
+
+[![settings](/images/apps/settings-320.png)](/images/apps/settings.png)
+[![settings](/images/apps/settings2-320.png)](/images/apps/settings2.png)
+[![settings](/images/apps/settings3-320.png)](/images/apps/settings3.png)
+[![settings](/images/apps/settings4-320.png)](/images/apps/settings4.png)
+[![settings](/images/apps/settings5-320.png)](/images/apps/settings5.png)
+
+### Camera
+
+### Browser
+
+[![browser](/images/apps/browser-320.png)](/images/apps/browser.png)
+
+### Calculator
+
+[![calc](/images/apps/calc-320.png)](/images/apps/calc.png)
+
+### Calendar
+
+[![calendar](/images/apps/calendar-320.png)](/images/apps/calendar.png)
+[![calendar](/images/apps/calendar2-320.png)](/images/apps/calendar2.png)
+[![calendar](/images/apps/calendar3-320.png)](/images/apps/calendar3.png)
+
+### Clock
+
+[![alarm1](/images/apps/alarm1-320.png)](/images/apps/alarm1.png)
+[![alarm2](/images/apps/alarm2-320.png)](/images/apps/alarm2.png)
+
+### Email
+
+[![email](/images/apps/email-320.png)](/images/apps/email.png)
+
+### File manager
+
+[![file-manager](/images/apps/file-manager-320.png)](/images/apps/file-manager.png)
+
+### Gallery
+
+### Hardware test
+
+[![hardware-test1](/images/apps/hardware-test1-320.png)](/images/apps/hardware-test1.png)
+[![hardware-test2](/images/apps/hardware-test2-320.png)](/images/apps/hardware-test2.png)
+
+### Music
+
+### Packages
+
+[![packages1](/images/apps/packages1-320.png)](/images/apps/packages1.png)
+
+### Weather
+
+[![weather](/images/apps/weather-320.png)](/images/apps/weather.png)
+
