@@ -64,6 +64,7 @@ For developing of applications please look at [Components](/qtquickcontrols-nemo
 
 [![alarm1](/images/apps/alarm1-180.png)](/images/apps/alarm1.png)
 [![alarm2](/images/apps/alarm2-180.png)](/images/apps/alarm2.png)
+[![alarm3](/images/apps/alarm3-180.png)](/images/apps/alarm3.png)
 
 ### [Email](https://github.com/nemomobile-ux/glacier-mail)
 
@@ -75,12 +76,18 @@ For developing of applications please look at [Components](/qtquickcontrols-nemo
 
 ### [Gallery](https://github.com/nemomobile-ux/glacier-gallery/)
 
+[![gallery](/images/apps/gallery-180.png)](/images/apps/gallery.png)
+
+
 ### [Hardware test](https://github.com/nemomobile-ux/glacier-testtool)
 
 [![hardware-test1](/images/apps/hardware-test1-180.png)](/images/apps/hardware-test1.png)
 [![hardware-test2](/images/apps/hardware-test2-180.png)](/images/apps/hardware-test2.png)
 
 ### [Music](https://github.com/nemomobile-ux/glacier-music)
+
+[![music](/images/apps/music-180.png)](/images/apps/music.png)
+[![music2](/images/apps/music2-180.png)](/images/apps/music2.png)
 
 ### [Packages](https://github.com/nemomobile-ux/glacier-packagemanager)
 
