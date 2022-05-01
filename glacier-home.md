@@ -77,6 +77,7 @@ For developing of applications please look at [Components](/qtquickcontrols-nemo
 ### [Gallery](https://github.com/nemomobile-ux/glacier-gallery/)
 
 [![gallery](/images/apps/gallery-180.png)](/images/apps/gallery.png)
+[![gallery-video](/images/apps/gallery-video-180.png)](/images/apps/gallery-video.png)
 
 
 ### [Hardware test](https://github.com/nemomobile-ux/glacier-testtool)

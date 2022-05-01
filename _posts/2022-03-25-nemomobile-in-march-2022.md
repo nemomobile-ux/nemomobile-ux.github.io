@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nemomobile in March/2022
+title: Nemomobile in March 2022
 excerpt: 
 modified: 2022-03-25
 author: jmlich
