@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nemomobile in April/2022
+title: Nemomobile in April 2022
 excerpt: What is new around Nemomobile in April? Release 0.9, CutiePi, reworked dialer, music, new ofono and more..
 modified: 2022-04-30
 author: jmlich
