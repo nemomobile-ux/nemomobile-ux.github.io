@@ -101,7 +101,7 @@ There was a little confusion caused by the number of plural forms in Transifex a
 ![](/images/2022-06-24-nemomobile-in-june-2022/linguist.png){: height="400"}
 ![](/images/2022-06-24-nemomobile-in-june-2022/transifex.png){: height="400"}
 
-It turned out that Transifex ISO Standard and [Unicode CDLR](https://community.transifex.com/t/important-update-languages-plural-rules/2832) data
+It turned out that Transifex is using newer ISO Standard and [Unicode CDLR](https://community.transifex.com/t/important-update-languages-plural-rules/2832) data
 than Qt Linguist which includes that [feature](https://bugreports.qt.io/browse/QTBUG-101214) in Qt 6.4 which is planned to be released in September this year.
 
 As a consequence, Transifex considered the translation reimported from GitHub as incomplete and discarded it.
