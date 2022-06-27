@@ -17,7 +17,9 @@ the new toolchain. Phone calls and the camera still don’t work. The call histo
 alarm handler have been reworked and the Gallery app improved. Translations of plurals
 caused some extra effort during the merge.
 
-There were two conference talks: At the DevConf Mini conference and at the Installfest conference. DevConf hasn’t published the recording yet. The Installfest (CZ) will cut the stream into separate talks soon. 
+There were two conference talks: At the DevConf Mini conference and at the Installfest conference. The Installfest (CZ) will cut the stream into separate talks soon. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ya0nSC-68OU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CNyNdqd4VCQ?start=5131" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
