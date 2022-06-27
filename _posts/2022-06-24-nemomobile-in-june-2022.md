@@ -4,7 +4,7 @@ title: Nemomobile in June 2022
 excerpt: 
 modified: 2022-06-24
 author: jmlich
-tags: ["Dialer", "Alarm Clock", "Translations", "Camera", "Gallery"]
+tags: ["Dialer", "Alarm Clock", "Translations", "Camera", "Gallery", "Conference"]
 image:
   feature: ./2022-06-24-nemomobile-in-june-2022/teaser.jpg
   teaser: ./2022-06-24-nemomobile-in-june-2022/teaser.jpg
