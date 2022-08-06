@@ -21,7 +21,7 @@ There were two conference talks: At the DevConf Mini conference and at the Insta
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ya0nSC-68OU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CNyNdqd4VCQ?start=5131" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iQcMDxWIefo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Manjaro has updated to a [new toolchain](https://forum.manjaro.org/t/arm-stable-update-2022-06-19-toolchain-perl-calamares-firefox-gnome-and-kernels/114394).
 This caused some troubles with the rebuild of Nemo packages. Namely [libdsm package](https://github.com/sailfishos/libdsme/pull/4) and libconnman-qt package.
