@@ -33,7 +33,7 @@ It is likely that the whole dialog will be redesigned in the future.
 
 ## Keyboard
 
-The keyboard got a lot of improvements. Qt-quickcontrols-nemo now contains a showcase
+The keyboard got a lot of improvements. Qt-quickcontrols-nemo now contains a [showcase](https://github.com/nemomobile-ux/qtquickcontrols-nemo/commit/58ade7c031752947e1695794a82ee840e8e807d0)
 for various input method hints. The keyboard itself now reacts to them. This means that
 it now changes [layout when numbers](https://github.com/nemomobile-ux/maliit-nemo-keyboard/commit/0ddaf28c396357e5df0d1248414ae6ee4d201c69),
 email addresses, dates, times, etc. are expected.
