@@ -35,14 +35,15 @@ It is likely that the whole dialog will be redesigned in the future.
 
 The keyboard got a lot of improvements. Qt-quickcontrols-nemo now contains a showcase
 for various input method hints. The keyboard itself now reacts to them. This means that
-it now changes layout when numbers, email addresses, dates, times, etc. are expected.
+it now changes [layout when numbers](https://github.com/nemomobile-ux/maliit-nemo-keyboard/commit/0ddaf28c396357e5df0d1248414ae6ee4d201c69),
+email addresses, dates, times, etc. are expected.
 
 <video controls autoplay loop> <source src="/images/2022-08-27-nemomobile-in-august-2022/simplescreenrecorder-2022-08-24_15.58.44.mp4" /></video>
 
-The layout support was reworked. They are now stored in JSON files. The structure was originally designed to support accented characters. Now, they are finally implemented.
+The [layout support](https://github.com/nemomobile-ux/maliit-nemo-keyboard/commit/c3568b4c7d396e63e4c1adfa5af29413fbd0d1ce) was reworked. They are now stored in JSON files. The structure was originally designed to support accented characters. Now, they are finally implemented.
 
 ![](/images/2022-08-27-nemomobile-in-august-2022/keyboard.jpg){: max-width="100%" width="800"}
 
-The prototype of predictive input was also improved and was finally merged into the master branch.
+The prototype of [predictive input](https://github.com/nemomobile-ux/maliit-nemo-keyboard/commit/a7de3b052dc885699eb843fcc11c7ab57e0c0b3d) was also improved and was finally merged into the master branch.
 
 <video controls autoplay loop> <source  src="/images/2022-08-27-nemomobile-in-august-2022/simplescreenrecorder-2022-08-26_14.21.15.mp4" /></video>
