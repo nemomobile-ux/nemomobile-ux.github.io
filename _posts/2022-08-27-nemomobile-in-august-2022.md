@@ -18,7 +18,11 @@ The speed of development is slowing down a little. In August the Manjaro packagi
 
 The Manjaro packaging was updated in git and in package repositories. Nemomobile can now built without extra repositories.
 
-![](/images/2022-08-27-nemomobile-in-august-2022/twitter-image-build.png)
+[![twitter](/images/2022-08-27-nemomobile-in-august-2022/twitter-image-build.png)](https://twitter.com/neochapay/status/1558178715179286529)
+
+```
+buildarmimg -d pinephone -e nemomobile -v 0.99 -b unstable
+```
 
 ## glacier-pinquery
 
