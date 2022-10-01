@@ -2,7 +2,7 @@
 layout: post
 title: Nemomobile in August 2022
 excerpt: 
-modified: 2022-07-28
+modified: 2022-08-27
 author: jmlich
 tags: ["Manjaro", "Pin Query", "Keyboard"]
 image:
