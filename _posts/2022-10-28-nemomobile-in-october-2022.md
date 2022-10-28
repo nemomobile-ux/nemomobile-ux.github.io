@@ -47,7 +47,8 @@ Then, the migration of Qt Quick Controls Nemo to Qt Quick Controls 2 [can be sta
 # Facelift of Dialer and PIN Query
 
 The proposal for [controls layout](https://github.com/qwazix/glacier-controls-spec/blob/master/numpad-static/numpad-static.pdf) from qwazix exists since 2017.
-The dialer application and PIN Query application were updated in order to get closer to that proposal. However, there is still oFono related issue with detection if is PIN required. Similar to voice calls and switching of audio profiles. 
+The [dialer](https://github.com/nemomobile-ux/glacier-dialer/pull/62) application and [PIN Query](https://github.com/nemomobile-ux/glacier-pinquery/pull/18) application
+were updated in order to get closer to that proposal. However, there is still oFono related issue with detection if is PIN required. Similar to voice calls and switching of audio profiles. 
 
 
 ![](/images/2022-10-28-nemomobile-in-october-2022/dialer-pin-query.png){: height="500"}
