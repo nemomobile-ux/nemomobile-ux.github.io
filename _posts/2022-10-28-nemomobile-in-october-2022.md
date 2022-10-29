@@ -32,19 +32,19 @@ dialog. It was updated in order to allow settings of the threshold for start and
 
 ![](/images/2022-10-28-nemomobile-in-october-2022/health.jpg){: height="400"}
 
-# Music application is being migrated to plugins
+## Music application is being migrated to plugins
 
 [Big rework](https://github.com/nemomobile-ux/glacier-music/pull/33) of the Music application is in progress.
 In the end, it should be possible to add different audio sources such as podcasts, audio books, or internet radios.
 
-# Moving towards Qt6
+## Moving towards Qt6
 
 The target and reasons are probably clear. We would like to keep pace with the rest of the world and to
 be able to use the latest and greatest technologies. It is needed to update all libraries in the chain.
 For start, it is [mlite](https://github.com/sailfishos/mlite/pull/4), [libglacierapp](https://github.com/nemomobile-ux/libglacierapp/pull/7).
 Then, the migration of Qt Quick Controls Nemo to Qt Quick Controls 2 [can be started](https://github.com/nemomobile-ux/qtquickcontrols-nemo/commit/67bb2e018b909c70fa65ca6c3d133332d979ce55).
 
-# Facelift of Dialer and PIN Query
+## Facelift of Dialer and PIN Query
 
 The proposal for [controls layout](https://github.com/qwazix/glacier-controls-spec/blob/master/numpad-static/numpad-static.pdf) from qwazix exists since 2017.
 The [dialer](https://github.com/nemomobile-ux/glacier-dialer/pull/62) application and [PIN Query](https://github.com/nemomobile-ux/glacier-pinquery/pull/18) application
