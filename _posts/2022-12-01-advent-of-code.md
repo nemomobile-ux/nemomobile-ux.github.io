@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-02
+modified: 2022-12-03
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -34,3 +34,17 @@ Santa Claus is an elderly person and his sight is not what it used to be. Unfort
 the [Pinch to zoom](https://github.com/nemomobile-ux/glacier-gallery/issues/20) function
 in the Gallery application doesn’t work smoothly and seamlessly as expected. Your task is to fix zoom problem and
 save Christmas, otherwise some children may not get their presents.
+
+## 3 - how many days are left until Christmas?
+
+Elves haven't managed to finish the calendar application before the start of December. Now they are running around Santa's village,
+confused and afraid that they won't have time to wrap all the presents for the children. Santa cannot check if have been nice for
+the whole year. Some mighty hackers with skills in user interface design and programming may help. The day, month, and agenda view
+are already implemented in the [glacier-calendar](https://github.com/nemomobile-ux/glacier-calendar/) application. Same, the adding,
+removing, and updating of events is already possible. The part with the week and year overview is missing, and this is exactly your task.
+
+
+[![calendar](/images/apps/calendar-180.png)](/images/apps/calendar.png)
+[![calendar](/images/apps/calendar2-180.png)](/images/apps/calendar2.png)
+[![calendar](/images/apps/calendar3-180.png)](/images/apps/calendar3.png)
+
