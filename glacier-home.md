@@ -98,3 +98,8 @@ For developing of applications please look at [Components](/qtquickcontrols-nemo
 
 [![weather](/images/apps/weather-180.png)](/images/apps/weather.png)
 
+### [Sizeview](https://github.com/nemomobile-ux/qtquickcontrols-nemo/tree/master/examples/sizeview)
+
+[![sizeview](/images/apps/sizeview1-180.png)](/images/apps/sizeview1.png)
+[![sizeview](/images/apps/sizeview2-180.png)](/images/apps/sizeview2.png)
+
