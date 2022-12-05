@@ -65,3 +65,21 @@ Nemomobile uses [MCE](https://github.com/sailfishos/mce). The abbreviation stand
 it was originally for Nokia computers. Next, there is [NGFD](https://github.com/sailfishos/mce) which stands
 for Non-graphical feedback daemon. Those two are probably good interfaces to control flashlight LEDs from
 the end-user apps or [glacier home](https://github.com/nemomobile-ux/glacier-home).
+
+
+## 5 - packaging presents from 9 to 5
+
+Elves have to package a few [quetta-](https://en.wiktionary.org/wiki/quetta-)packages until Christmas. It seems that improvement in automation may help with testing and may accelerate whole process.
+
+![](/images/2022-12-01-advent-of-code/day5-packages.jpg){: width="100%"}
+
+While [elves in Shenzhen](https://cutiepi.io/) are preparing packages with hardware inside, the programmers
+are working on PKGBUILDs. Every change in component requires a rebuild of a package. This takes elves a lot
+of time.  There is already some package rebuild automation in [Manjaro Linux GitLab](https://gitlab.manjaro.org/manjaro-arm/packages/community/nemo-ux/lipstick-glacier-home/-/blob/master/.gitlab-ci.yml)
+and image rebuilds in [github actions](https://github.com/nemomobile-ux/nemo-images). 
+
+To makes task more difficult we are have three places to start with: [Manjaro Gitlab](https://gitlab.manjaro.org/manjaro-arm/packages/community/nemo-ux)
+(or as [submodules](https://github.com/jmlich/nemo-ux)), [github/nemo-packaging](https://github.com/nemomobile-ux/nemo-packaging/), and/or
+[Arch Linux](https://github.com/archlinux/svntogit-community/tree/master/qt5-quickcontrols-nemo).
+
+Automation with GitHub Actions which produces images with package recompilation would be a big help for elves.  Where to start unraveling this puzzle? This is task for Monday.
