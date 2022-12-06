@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-04
+modified: 2022-12-06
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -83,3 +83,21 @@ To makes task more difficult we are have three places to start with: [Manjaro Gi
 [Arch Linux](https://github.com/archlinux/svntogit-community/tree/master/qt5-quickcontrols-nemo).
 
 Automation with GitHub Actions which produces images with package recompilation would be a big help for elves.  Where to start unraveling this puzzle? This is task for Monday.
+
+## 6 - no more letters for Santa?
+
+It is maybe too late to send a letter by postal service. Many children may not write anything
+on the phone because the on-screen keyboard in Nemomobile is not showing for some reason.
+Our wish is to have such smooth experience as with Bluetooth keyboard.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zua1C56Ykyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Currently, we are using [maliit-framework](https://github.com/maliit/framework)
+with [maliit-nemo-keyboard](https://github.com/nemomobile-ux/maliit-nemo-keyboard)
+and [maliit-gtk-input-context](https://github.com/maliit/inputcontext-gtk). The
+nemo-keyboard package provides qml based keyboard adjusted for Nemo. It is based on
+[Qt Quick Controls Nemo](http://github.com/nemomobile-ux/qtquickcontrols-nemo) so it
+can keep nemo color scheme and font settings.
+
+The keyboard it self is rendered as independent application over other applications.
+Application detects dimensions of keyboard and render its content according to that.
