@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-06
+modified: 2022-12-07
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -101,3 +101,13 @@ can keep nemo color scheme and font settings.
 
 The keyboard it self is rendered as independent application over other applications.
 Application detects dimensions of keyboard and render its content according to that.
+
+## 7 - Santa's naughty or nice list
+
+Santa is using the Glacier Contacts application to keep an eye on all the nice kids. Christmas magic
+allows him to manage all 8 billion people on the planet on his phone. Unfortunately, he
+[cannot store photos directly in the contact](https://github.com/nemomobile-ux/glacier-contacts/issues/64),
+but only as a link to a file. He needs to clean up his gallery in order to be able to find all the presents,
+but he needs to keep faces in his contact list.
+
+![](/images/2022-12-01-advent-of-code/day7-the-list.jpg){: width="100%"}
