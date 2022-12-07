@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-07
+modified: 2022-12-08
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -111,3 +111,16 @@ but only as a link to a file. He needs to clean up his gallery in order to be ab
 but he needs to keep faces in his contact list.
 
 ![](/images/2022-12-01-advent-of-code/day7-the-list.jpg){: width="100%"}
+
+## 8 - Present for GTK Friends
+
+Santa's reindeer Comet thinks that GTK users should also be able to write their letters in GTK4-based applications.
+Nowadays, Phosh-based user interfaces are using [Squeakboard](https://gitlab.gnome.org/World/Phosh/squeekboard),
+but Nemo is using [Maliit](https://github.com/maliit/framework). And the Maliit keyboard also supports GTK apps.
+Unfortunately, it [doesn't work with GTK4](https://github.com/maliit/inputcontext-gtk/issues/4).
+
+The current code is based on objects such as `GdkWindow`, which is now `GdkSurface`. Also, `GdkEventKey` is
+not accessible in GTK4. Other hints to solve that challenge are in
+the [GTK migration guide](https://docs.gtk.org/gtk4/migrating-3to4.html).
+
+![](/images/2022-12-01-advent-of-code/day8-gtk-widgets.jpg){: width="100%"}
