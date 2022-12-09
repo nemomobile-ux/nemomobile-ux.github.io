@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-09
+modified: 2022-12-10
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -136,3 +136,18 @@ window thumbnails do not fit in the placeholders when rendered. Therefore, it is
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x1oJUZbNSNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.
 
+## 10 – Unlock Santa’s SIM Card to save Christmas
+
+Santa Claus lost his SIM card, and the new one is locked by a PIN. He is not able to connect to the network due
+to a bug in glacier-pinquery. Santa wouldn’t be able to contact his elves and organize his Christmas Eve deliveries.
+Will some smart hacker find a fix?
+
+
+![](/images/2022-12-01-advent-of-code/day10-new-simcard.jpg){: width="100%"}
+
+The [glacier-pinquery](https://github.com/nemomobile-ux/glacier-pinquery) is using
+[libqofono-qt5](https://github.com/sailfishos/libqofono) and [ofono](https://github.com/neochapay/ofono-new).
+It seems that the `ofono/tests/list-modems` script returns all properties correctly, and the property `PinRequired`
+contents is ‘pin’ as expected. The `QOfonoSimmanager`, however, doesn’t show the property. The `dbus-monitor` shows
+that `QOfonoSimmanager` doesn’t send a dbus query with `GetProperties` at all. Further exploration shown that the
+modem is not valid in that class for some reason.
