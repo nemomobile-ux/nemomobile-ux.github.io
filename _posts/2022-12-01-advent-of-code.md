@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-08
+modified: 2022-12-09
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -124,3 +124,15 @@ not accessible in GTK4. Other hints to solve that challenge are in
 the [GTK migration guide](https://docs.gtk.org/gtk4/migrating-3to4.html).
 
 ![](/images/2022-12-01-advent-of-code/day8-gtk-widgets.jpg){: width="100%"}
+
+## 9 – Nemo, go home, you are drunk
+
+Some people tend to over-celebrate during the Christmas period. The current home screen is not in the best shape,
+but it wasn't made by people who were drunk. It does have some technical debt, as it is hard to verify that all
+use cases are working properly. Non-native applications don't react to orientation at all, or they appear upside
+down, while native applications do not distinguish between portrait and landscape mode properly. Furthermore, the
+window thumbnails do not fit in the placeholders when rendered. Therefore, it is clear that
+[orientation-related features need some care](https://github.com/nemomobile-ux/main/issues/39).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x1oJUZbNSNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.
+
