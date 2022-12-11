@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-10
+modified: 2022-12-11
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -151,3 +151,15 @@ It seems that the `ofono/tests/list-modems` script returns all properties correc
 contents is ‘pin’ as expected. The `QOfonoSimmanager`, however, doesn’t show the property. The `dbus-monitor` shows
 that `QOfonoSimmanager` doesn’t send a dbus query with `GetProperties` at all. Further exploration shown that the
 modem is not valid in that class for some reason.
+
+## 11 - well played, Grinch
+
+The Evil Elf Grinch is trying to disrupt Christmas by adding the string `/usr` to random file URLs in the Glacier
+Settings application. It is absurd that even the Glacier logo on the About page isn't visible. The sabotage was
+carried out ingeniously. The cause of this is still a mystery. This began roughly when Glacier Settings
+[amended the plug-in architecture](https://github.com/nemomobile-ux/glacier-settings/pull/125). Initially,
+plugins were defined by JSONs and the entry QML file, but after the redesign, plugins are defined by shared
+objects. Now the main page of the application is loaded from the QRC resource, while plugins are loaded from
+the file system. Using QRC itself does not appear to be having any effect.
+
+![](/images/2022-12-01-advent-of-code/day11-usr.jpg){: width="100%"}
