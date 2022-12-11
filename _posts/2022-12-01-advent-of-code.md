@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-11
+modified: 2022-12-12
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -163,3 +163,19 @@ objects. Now the main page of the application is loaded from the QRC resource, w
 the file system. Using QRC itself does not appear to be having any effect.
 
 ![](/images/2022-12-01-advent-of-code/day11-usr.jpg){: width="100%"}
+
+## 12 – Sync your calendars
+
+Time is running and everything needs to be planned precisely and carefully. All tasks for the elves are in the
+Glacier Calendar application. However, Santa’s wife is using Google Calendar, which cannot be easily synchronized
+to NemoMobile right now. Being out of sync with Mrs. Claus may end up in a disaster.
+
+![](/images/2022-12-01-advent-of-code/day12-calendar.jpg){: width="100%"}
+
+The calendar application is based on [nemo-qml-plugin-calendar](https://github.com/sailfishos/nemo-qml-plugin-calendar),
+which uses [libaccount](https://gitlab.com/accounts-sso), [mkcal](https://github.com/sailfishos/mkcal/), and
+[kcalendarcore](https://invent.kde.org/frameworks/kcalendarcore). [Buteo-sync-plugins-social](https://github.com/sailfishos/buteo-sync-plugins-social)
+should allow synchronization with the Google account. The configuration dialog could possibly be implemented into
+[glacier-settings-accounts](https://github.com/nemomobile-ux/glacier-settings-accounts), which uses
+[nemo-qml-plugins-accounts](https://github.com/sailfishos/nemo-qml-plugin-accounts), [nemo-qml-plugins-signon](https://github.com/sailfishos/nemo-qml-plugin-signon),
+and [signon-ui](https://github.com/sailfishos/nemo-qml-plugin-signon).
