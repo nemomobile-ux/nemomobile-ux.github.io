@@ -124,7 +124,8 @@ a.btn-social:hover {
     color: _palette(fg-bold);
     font-weight: _font(weight);
     line-height: 1em;
-    margin: 0 0 (_size(element-margin) * 0.25) 0;
+    margin: -100px 0 (_size(element-margin) * 0.25) 0;
+    padding-top: 100px;
 
     a {
       color: inherit;
