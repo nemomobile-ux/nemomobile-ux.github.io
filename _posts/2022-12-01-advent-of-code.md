@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-12
+modified: 2022-12-13
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -178,4 +178,27 @@ which uses [libaccount](https://gitlab.com/accounts-sso), [mkcal](https://github
 should allow synchronization with the Google account. The configuration dialog could possibly be implemented into
 [glacier-settings-accounts](https://github.com/nemomobile-ux/glacier-settings-accounts), which uses
 [nemo-qml-plugins-accounts](https://github.com/sailfishos/nemo-qml-plugin-accounts), [nemo-qml-plugins-signon](https://github.com/sailfishos/nemo-qml-plugin-signon),
-and [signon-ui](https://github.com/sailfishos/nemo-qml-plugin-signon).
+and [signon-ui](https://github.com/sailfishos/nemo-qml-plugin-signon)
+
+## 13 – Join to Nemomobile, we have cookies.
+
+Some people think that voice calls and SMS messages are essential features of the smartphone operating system. Receiving SMS messages works,
+but sending SMS or MMS does not. It is already 30 years since the first SMS was sent. It is probably stable enough to implement in Nemo.
+
+![](/images/2022-12-01-advent-of-code/day13-cookies-for-Santa.jpg){: width="100%"}
+
+>    Dear Santa,
+>
+>    I have been a good boy this year and I would like to ask for a special gift. Can you please help me fix all the NemoMobile issues that I have been having? I have left some cookies and milk out for you, and I hope you enjoy them when you come to visit.
+>
+>    Thank you for all that you do, and I can’t wait to see what you bring me this year.
+>
+>    Sincerely, Jozef
+
+Where should we start with the investigation? Nemo is using [glacier-messages](https://github.com/nemomobile-ux/glacier-messages),
+which is based on [telepathy-ofono](https://github.com/TelepathyIM/telepathy-ofono). It also uses [libofono-qt](https://github.com/Kaffeine/libofono-qt),
+which is a different project than [libqofono](https://github.com/sailfishos/libqofono). In the end, it uses [onofo](https://github.com/neochapay/ofono-new)
+to control the modem.
+
+
+.
