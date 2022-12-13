@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-13
+modified: 2022-12-14
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -200,5 +200,17 @@ which is based on [telepathy-ofono](https://github.com/TelepathyIM/telepathy-ofo
 which is a different project than [libqofono](https://github.com/sailfishos/libqofono). In the end, it uses [onofo](https://github.com/neochapay/ofono-new)
 to control the modem.
 
+## 14 - Jammed WiFi at the North Pole: Where is my wire?
 
-.
+Christmas is coming, and the North Pole is a busy place. Santa's workshop is
+filled with the sounds of elves building toys and packing presents, but there's
+one problem - the WiFi network is down. It seems that Santa's storage, where
+hundreds of ESP8266 devices are stored, is causing radio interference and breaking
+the WiFi.
+
+Santa needs a reliable connection to Nemo to be able to debug all the issues and make
+sure everything is running smoothly. Fortunately, fixing the USB networking may be the
+solution. Nemo is using [usb-moded](https://github.com/sailfishos/usb-moded), which should
+provide the option to reconfigure the USB connection. There is a
+[pinephone-setup-usb-network.sh](https://gitlab.manjaro.org/manjaro-arm/packages/community/pinephone/pinephone-manjaro-tweaks/-/blob/master/pinephone-setup-usb-network.sh)
+script that may help us understand what is missing and get the USB connection working again.
