@@ -225,6 +225,8 @@ The elves have already prepared the costumes and props for each month of the cal
 and have planned out the poses for each picture. They are excited to capture the fun
 and playful spirit of Buddy, and to share the calendar with other elves and with Santa.
 
+![](/images/2022-12-01-advent-of-code/day15-camera.jpg){: width="100%"}
+
 However, they are encountering a problem: the camera on their Pinephone is not working
 properly. They have tried using the [Mexapixels](https://git.sr.ht/~martijnbraam/megapixels)
 application, but it is not well-suited to Nemo’s user experience. They have also attempted
@@ -242,4 +244,3 @@ The 15th day of the advent of code challenge is all about helping the elves to c
 the GStreamer pipeline and capture Full HD video using the Pinephone and Nemo. Can you
 rise to the challenge and save Christmas for the elves?
 
-![](/images/2022-12-01-advent-of-code/day15-camera.jpg){: width="100%"}
