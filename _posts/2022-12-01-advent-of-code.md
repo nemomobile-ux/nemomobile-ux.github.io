@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-14
+modified: 2022-12-15
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -242,4 +242,4 @@ The 15th day of the advent of code challenge is all about helping the elves to c
 the GStreamer pipeline and capture Full HD video using the Pinephone and Nemo. Can you
 rise to the challenge and save Christmas for the elves?
 
-![](/images/2022-12-01-advent-of-code/day13-camaera.jpg){: width="100%"}
+![](/images/2022-12-01-advent-of-code/day15-camera.jpg){: width="100%"}
