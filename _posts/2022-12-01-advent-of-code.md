@@ -214,3 +214,32 @@ solution. Nemo is using [usb-moded](https://github.com/sailfishos/usb-moded), wh
 provide the option to reconfigure the USB connection. There is a
 [pinephone-setup-usb-network.sh](https://gitlab.manjaro.org/manjaro-arm/packages/community/pinephone/pinephone-manjaro-tweaks/-/blob/master/pinephone-setup-usb-network.sh)
 script that may help us understand what is missing and get the USB connection working again.
+
+## 15 - Buddy’s surprise in jeopardy
+
+As Christmas approaches, the elves at the North Pole are busy preparing for the holiday
+season. One group of elves has a special project in mind: creating a calendar featuring
+Buddy, the lovable and mischievous elf from the movie “Elf”.
+
+The elves have already prepared the costumes and props for each month of the calendar,
+and have planned out the poses for each picture. They are excited to capture the fun
+and playful spirit of Buddy, and to share the calendar with other elves and with Santa.
+
+However, they are encountering a problem: the camera on their Pinephone is not working
+properly. They have tried using the [Mexapixels](https://git.sr.ht/~martijnbraam/megapixels)
+application, but it is not well-suited to Nemo’s user experience. They have also attempted
+to use the QtMultimedia library and GStreamer pipeline to take pictures, but they are
+having difficulty configuring the pipeline.
+
+Desperate for a solution, the elves turn to YOU, skilled hackers, for help. They know that
+the Pinephone’s camera requires a newer kernel, which is available in Manjaro Linux, and
+that the [libcamera](https://gitlab.com/tui/libcamera) library may need to be patched in
+order to work properly with the QtMultimedia library. With your help, the elves hope to
+be able to configure the [GStreamer pipeline](https://gitlab.com/tui/tui/-/tree/master/cam)
+and capture high-quality pictures for their calendar.
+
+The 15th day of the advent of code challenge is all about helping the elves to configure
+the GStreamer pipeline and capture Full HD video using the Pinephone and Nemo. Can you
+rise to the challenge and save Christmas for the elves?
+
+![](/images/2022-12-01-advent-of-code/day13-camaera.jpg){: width="100%"}
