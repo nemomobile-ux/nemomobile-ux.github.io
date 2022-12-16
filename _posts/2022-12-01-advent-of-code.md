@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-15
+modified: 2022-12-16
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -244,3 +244,18 @@ The 15th day of the advent of code challenge is all about helping the elves to c
 the GStreamer pipeline and capture Full HD video using the Pinephone and Nemo. Can you
 rise to the challenge and save Christmas for the elves?
 
+## 16 – Swipe in the loop to cheer Rudolph the reindeer
+
+Rudolph the reindeer has always been passionate about improving the user experience,
+and he spends his free time tinkering with the Nemomobile operating system, trying
+to find ways to make it more intuitive and user-friendly. One of his favorite features
+was the ability to swipe on the home screen in both directions, but recently this feature
+stopped working and Rudolph is devastated. He refuses to light up his nose, which is
+a crucial part of his navigation system, until the issue is fixed.
+
+The other reindeer are concerned about Rudolph and try to cheer him up, but nothing seems
+to work. They decide to brainstorm and come up with a solution to fix the issue with
+the swiping feature on the home screen. They believe that if they can get this feature
+working again, it will help Rudolph feel better and be able to focus on his navigation
+duties. You can help with fixing the issue. There were already [some drafts](https://github.com/nemomobile-ux/main/issues/27)
+of the fix, but it wasn’t working correctly on the phone.
