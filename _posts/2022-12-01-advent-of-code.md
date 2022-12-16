@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-16
+modified: 2022-12-17
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -259,3 +259,24 @@ the swiping feature on the home screen. They believe that if they can get this f
 working again, it will help Rudolph feel better and be able to focus on his navigation
 duties. You can help with fixing the issue. There were already [some drafts](https://github.com/nemomobile-ux/main/issues/27)
 of the fix, but it wasn’t working correctly on the phone.
+
+
+## 17 - North pole calling?
+
+Someone from the North Pole was calling us, but unfortunately we don't know
+what they wanted because we couldn't hear them. Please help us fix the issue.
+The [phone calls](https://github.com/nemomobile-ux/main/issues/34) feature
+seems to be both close and far away at the same time. Right now, the phone
+calls work but don't transmit sound. It's only possible with an unlocked SIM card.
+
+The voice is not transmitted because the pulse audio profile is not switched. It
+can be manually switched with the command `pactl set-card-profile 0 "Voice Call"`.
+
+The ofono is controlled via dbus. The `OFONO_DEBUG=-d` in `/var/lib/environment/ofono/debug.conf` may help to find the issue. There were some permissions in the settings to check:
+
+In `/etc/dbus-1/system.d/ofono.conf`, the `<policy user="radio">` should probably be `<policy user="network">`, and `/etc/ofono/dbusaccess.conf` should allow use for the 'wheel' group:
+
+```
+* = deny;
+group(network) | group(wheel) = allow;
+```
