@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-17
+modified: 2022-12-18
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -280,3 +280,15 @@ In `/etc/dbus-1/system.d/ofono.conf`, the `<policy user="radio">` should probabl
 * = deny;
 group(network) | group(wheel) = allow;
 ```
+
+## 18 – Helping Santa Deliver on Time
+
+With only one week left until Christmas, the elves are working at full speed to prepare for the holiday.
+However, they are running into a problem with their delivery tracking system. When they receive a notification
+from a delivery company via SMS, the [lipstick](https://github.com/nemomobile-ux/lipstick/tree/master/src/notifications)
+compositor, which is responsible for processing notifications, is not opening the [glacier-messages](https://github.com/jmlich/glacier-messages)
+app as it should when the elf clicks on the notification. As a result, they are unable to open the message directly
+and view the tracking details. This is slowing down the work of the elves and could potentially cause serious issues
+with preparing all the presents in time. Is there a hacker out there who can help us track the related D-Bus messages
+and identify which part of the system is broken in order to fix it? We need your help to ensure a smooth Christmas
+for Santa and the elves!
