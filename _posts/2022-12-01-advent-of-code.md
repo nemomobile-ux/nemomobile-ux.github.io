@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-18
+modified: 2022-12-19
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -292,3 +292,20 @@ and view the tracking details. This is slowing down the work of the elves and co
 with preparing all the presents in time. Is there a hacker out there who can help us track the related D-Bus messages
 and identify which part of the system is broken in order to fix it? We need your help to ensure a smooth Christmas
 for Santa and the elves!
+
+## 19 - Fixing the Broken Vibration on Silent Night
+
+It's the week before Christmas and Santa Claus is having trouble with the vibration feature on his Nemomobile phone.
+He needs to be able to catch calls from the elves at the North Pole, but the phone isn't vibrating when he receives them.
+
+![](/images/2022-12-01-advent-of-code/day19-silent-night.jpg){: width="100%"}
+
+Rudolph the red-nosed reindeer, who has been working on the Nemomobile operating system, is trying to reproduce the issue using
+the [glacier-testtool](https://github.com/nemomobile-ux/glacier-testtool). He has narrowed the problem down to one of the
+following packages: [ngfd](https://github.com/sailfishos/ngfd), [ngfd-plugin-native-vibrator](https://github.com/mer-hybris/ngfd-plugin-droid-vibrator),
+[qt5-feedback-haptics-native-vibrator](https://github.com/mer-hybris/qt5-feedback-haptics-droid-vibrator), and qt5-feedback.
+The Issue with [loading of ngfd vibra plugin](https://github.com/sailfishos/ngfd/pull/3) may help to understand where is a problem.
+
+Despite Rudolph's efforts, the vibration feature is still not working and Santa is at a loss for what to do. That's where you come in.
+
+Your task is to investigate the issue and come up with a solution that will get the vibration feature working again in time for Santa's journey on Christmas Eve. You'll need to dig into the code and see if you can find the root cause of the problem. Good luck!
