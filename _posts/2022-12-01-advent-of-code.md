@@ -324,7 +324,7 @@ space. Santa and the elves also have a need to remove tracking apps to keep the 
 help the elves fix this problem by implementing a way to uninstall unwanted gifts from the user interface of their Nemo mobile devices?
 
 To solve this problem, the elves need a way to uninstall gifts from the user interface of their Nemo mobile devices. This could be done
-by implementing a user interface in the [glacier-packagemanager](https://github.com/nemomobile-ux/glacier-home/tree/master/src/qml/applauncher)
+by implementing a user interface in the [glacier-packagemanager](https://github.com/nemomobile-ux/glacier-packagemanager)
 application that allows the elves to uninstall gifts, or by implementing an interface between glacier-packagemanager
 and [glacier-home](https://github.com/nemomobile-ux/glacier-home/tree/master/src/qml/applauncher) to allow the elves to
 uninstall gifts in a familiar way.
