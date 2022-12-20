@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-19
+modified: 2022-12-20
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -309,3 +309,26 @@ The Issue with [loading of ngfd vibra plugin](https://github.com/sailfishos/ngfd
 Despite Rudolph's efforts, the vibration feature is still not working and Santa is at a loss for what to do. That's where you come in.
 
 Your task is to investigate the issue and come up with a solution that will get the vibration feature working again in time for Santa's journey on Christmas Eve. You'll need to dig into the code and see if you can find the root cause of the problem. Good luck!
+
+## 20 - Stuck with Unwanted Gifts
+
+As Christmas approaches, the elves at the North Pole have been using their Nemo mobile devices to prepare for the holiday season.
+
+However, they have run into a problem: they are unable to uninstall unwanted software packages, or “gifts”, from their devices.
+
+The elves typically tried to uninstall gifts by pressing and holding on the gift’s icon on the home screen and choosing the option
+
+to uninstall on their previous devices. However, this method is not possible on Nemo mobile devices. The elves have also tried using
+the package manager to uninstall the gifts, but this is not working either.
+
+As a result, the elves’ devices are becoming cluttered with gifts that they do not want or need, and they are running out of storage
+space. Santa and the elves also have a need to remove tracking apps to keep the exact location of the North Pole a secret. Can you
+help the elves fix this problem by implementing a way to uninstall unwanted gifts from the user interface of their Nemo mobile devices?
+
+To solve this problem, the elves need a way to uninstall gifts from the user interface of their Nemo mobile devices. This could be done
+by implementing a user interface in the [glacier-packagemanager](https://github.com/nemomobile-ux/glacier-home/tree/master/src/qml/applauncher)
+application that allows the elves to uninstall gifts, or by implementing an interface between glacier-packagemanager
+and [glacier-home](https://github.com/nemomobile-ux/glacier-home/tree/master/src/qml/applauncher) to allow the elves to
+uninstall gifts in a familiar way.
+
+The goal of the task is to help the elves find a solution to easily and quickly uninstall unwanted gifts from their Nemo mobile devices using the user interface.
