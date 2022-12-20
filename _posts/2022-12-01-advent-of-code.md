@@ -313,11 +313,9 @@ Your task is to investigate the issue and come up with a solution that will get 
 ## 20 - Stuck with Unwanted Gifts
 
 As Christmas approaches, the elves at the North Pole have been using their Nemo mobile devices to prepare for the holiday season.
-
 However, they have run into a problem: they are unable to uninstall unwanted software packages, or “gifts”, from their devices.
 
 The elves typically tried to uninstall gifts by pressing and holding on the gift’s icon on the home screen and choosing the option
-
 to uninstall on their previous devices. However, this method is not possible on Nemo mobile devices. The elves have also tried using
 the package manager to uninstall the gifts, but this is not working either.
 
