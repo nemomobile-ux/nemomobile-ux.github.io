@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-20
+modified: 2022-12-21
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -330,3 +330,24 @@ and [glacier-home](https://github.com/nemomobile-ux/glacier-home/tree/master/src
 uninstall gifts in a familiar way.
 
 The goal of the task is to help the elves find a solution to easily and quickly uninstall unwanted gifts from their Nemo mobile devices using the user interface.
+
+## 21 - Disconnecting the Modem for a Smooth Journey
+
+It's the few days before Christmas and Santa Claus is getting ready for his annual journey around the world.
+As he packs his sleigh and checks his list twice, he realizes that he'll be traveling through many different
+countries and the cost of roaming will be exorbitant.
+
+To save money on roaming fees, Santa decides to [turn off the internet connection](https://github.com/nemomobile-ux/main/issues/38) on his Nemomobile phone
+while he's traveling. However, when he tries to do so, he discovers that the option to disconnect the modem
+is not reacting as it should. No matter how many times he tries, the internet connection remains active.
+
+Frustrated, Santa turns to the elves for help. They try their best to fix the problem, but they can't seem to find a solution.
+They check the modem settings, the network settings, and even try restarting the phone, but nothing seems to work.
+
+Your task is to investigate the issue and come up with a solution that will allow Santa to turn off the internet connection on his Nemomobile phone. You can try using the following hint to help you troubleshoot the problem:
+
+```
+qdbus --system org.ofono /quectelqmi_0 org.ofono.ConnectionManager.DeactivateAll
+```
+
+With your help, Santa will be able to save money on roaming fees and have a smooth journey around the world.
