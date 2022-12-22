@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-21
+modified: 2022-12-22
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -351,3 +351,17 @@ qdbus --system org.ofono /quectelqmi_0 org.ofono.ConnectionManager.DeactivateAll
 ```
 
 With your help, Santa will be able to save money on roaming fees and have a smooth journey around the world.
+
+## 22 – Dancer’s troubles with jinglebells ringtone
+
+Reindeer Dancer wants to use the jinglebells melody as a ringtone on his Nemo mobile device, but he
+finds the process of transferring files to and from the device using sshfs to be too complicated.
+He decides to try using the USB MTP feature instead, but unfortunately it doesn’t seem to be working.
+
+To help Reindeer Dancer get the USB MTP feature working again, you’ll need to investigate the root
+cause of the issue and come up with a solution. You might need to check the logs of the relevant
+system component, the [usb-moded](https://github.com/sailfishos/usb-moded) daemon, to see if there
+are any error messages that could help identify the problem. You should also check the configuration
+of the system to ensure that it is set up correctly to support USB MTP. You may find some hints in other
+implementations, such as the [pinephone-usb-gadget.sh](https://gitlab.manjaro.org/manjaro-arm/packages/community/pinephone/pinephone-manjaro-tweaks/-/blob/master/pinephone-usb-gadget.sh)
+script, that could help you troubleshoot the issue.
