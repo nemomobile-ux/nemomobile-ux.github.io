@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-22
+modified: 2022-12-23
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -365,3 +365,24 @@ are any error messages that could help identify the problem. You should also che
 of the system to ensure that it is set up correctly to support USB MTP. You may find some hints in other
 implementations, such as the [pinephone-usb-gadget.sh](https://gitlab.manjaro.org/manjaro-arm/packages/community/pinephone/pinephone-manjaro-tweaks/-/blob/master/pinephone-usb-gadget.sh)
 script, that could help you troubleshoot the issue.
+
+
+## 23 - Santa’s Missed Calls
+
+It’s December 23rd, and Santa is getting ready for his big trip on Christmas Eve. He relies on his NemoMobile
+device to stay in touch with his elves and keep track of all his appointments. However, he has noticed that
+the call history page in the dialer application is not showing any calls. There should be a record of all
+the calls – outgoing, incoming, and most importantly, missed calls – but the page is completely blank.
+
+Santa is worried that he might have missed important calls and messages from his elves, and he doesn’t want
+to risk missing any more. To help Santa get the call history page working again, you’ll need to investigate
+the root cause of the issue and come up with a solution. You might need to check the logs and code of the relevant
+system components, such as the [commhistory-daemon](https://github.com/sailfishos/commhistory-daemon),
+[libcommhistory](https://github.com/sailfishos/libcommhistory/) and [ofono](https://github.com/neochapay/ofono-new),
+to see if there are any error messages that could help identify the problem. You’ll also need to check
+the configuration of the system to ensure that it is set up correctly to show the call history in
+the [dialer application](https://github.com/nemomobile-ux/glacier-dialer). This could involve checking
+the settings for the dialer application, as well as the account settings for the device’s communication services.
+
+As you troubleshoot the issue, you may find it helpful to use a [simulation tool](https://github.com/sailfishos/libcommhistory/blob/master/tools/addcalls.sh)
+to show the D-Bus messages being sent.
