@@ -2,7 +2,7 @@
 layout: post
 title: Advent of code
 excerpt: 
-modified: 2022-12-23
+modified: 2022-12-24
 author: jmlich
 tags: ["Bugs"]
 image:
@@ -386,3 +386,20 @@ the settings for the dialer application, as well as the account settings for the
 
 As you troubleshoot the issue, you may find it helpful to use a [simulation tool](https://github.com/sailfishos/libcommhistory/blob/master/tools/addcalls.sh)
 to show the D-Bus messages being sent.
+
+## 24 – Santa’s Last-Minute Letters
+
+It’s December 24th, and the elves at the North Pole are working hard to make sure everything
+is ready for Santa’s big journey. One of the elves has noticed that the [email client](https://github.com/nemomobile-ux/glacier-mail)
+on his Nemo mobile device is not working properly. He is unable to send or receive emails, including important
+letters from children to Santa. He’s not sure if the problem is with the account configuration or somewhere else.
+
+To help the elves communicate with Santa and each other, you’ll need to investigate the root cause of
+the email client issue and come up with a solution that will get it working again. You might need to
+check the logs of the relevant system components, such as the email client and the email server, to
+see if there are any error messages that could help identify the problem. You’ll also need to check
+the configuration of the system to ensure that it is set up correctly to support the email client.
+If the problem is with the account configuration, you might try modifying the settings in 
+[glacier-settings-accounts](https://github.com/nemomobile-ux/glacier-settings-accounts).
+
+Merry Christmas, and good luck!
