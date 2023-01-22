@@ -12,7 +12,7 @@ For developing look on [Software Development Kit](/sdk/) and our [Application Pr
 
 ## On a PinePhone or PineTab
 
-* Download latest image from [img.nemomobile.net](https://img.nemomobile.net/) (for example [Manjaro-ARM-nemomobile-pinephone-0.5.img.xz](https://img.nemomobile.net/2021.10/Manjaro-ARM-nemomobile-pinephone-0.5.img.xz))
+* Download latest image from [img.nemomobile.net](https://img.nemomobile.net/) (for example [Manjaro-ARM-nemomobile-pinephone-0.9.img.xz](https://img.nemomobile.net/2022.05/Manjaro-ARM-nemomobile-pinephone-0.9.img.xz))
 * Copy image on the &micro;SD card
 ```
 xz -dc "Manjaro-ARM-nemomobile-pinephone-0.5.img.xz" | dd if=/dev/stdin of=/dev/mmcblk0 status=progress conv=fsync bs=4M
@@ -27,7 +27,7 @@ xz -dc "Manjaro-ARM-nemomobile-pinephone-0.5.img.xz" | dd if=/dev/stdin of=/dev/
 ```
 [nemomobile]
 SigLevel = Optional
-Server = https://img.nemomobile.net/manjaro/10.2021/devel/x86_64/
+Server = https://img.nemomobile.net/manjaro/05.2023/stable/x86_64/
 ```
 
 * Install NemoMobile packages
