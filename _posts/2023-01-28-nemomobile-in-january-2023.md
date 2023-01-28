@@ -4,7 +4,7 @@ title: Nemomobile in January 2023
 excerpt: 
 modified: 2023-01-28
 author: jmlich
-tags: []
+tags: ["USB moded", "x86", "Controls"]
 image:
   feature: ./2023-01-28-nemomobile-in-january-2023/photo1674831526.jpeg
   teaser:  ./2023-01-28-nemomobile-in-january-2023/photo1674831526.jpeg
