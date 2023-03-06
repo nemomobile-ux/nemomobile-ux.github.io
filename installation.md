@@ -12,11 +12,11 @@ For developing look on [Software Development Kit](/sdk/) and our [Application Pr
 
 ## On a PinePhone or PineTab
 
-* Download latest image from [img.nemomobile.net](https://img.nemomobile.net/) (for example [Manjaro-ARM-nemomobile-pinephone-0.9.img.xz](https://img.nemomobile.net/2022.05/Manjaro-ARM-nemomobile-pinephone-0.9.img.xz))
+* Download latest image from [img.nemomobile.net](https://img.nemomobile.net/) (for example [Manjaro-ARM-nemomobile-pinephone-0.94.img.xz](https://img.nemomobile.net/2023.05/Manjaro-ARM-nemomobile-pinephone-0.94.img.xz))
 * Choose whether to install it onto the eMMC or the &micro;SD card.
   *  To install onto the SD card, use the following command:
   ```
-  xz -dc "Manjaro-ARM-nemomobile-pinephone-0.9.img.xz" | dd if=/dev/stdin of=/dev/mmcblk0 status=progress conv=fsync bs=4M
+  xz -dc "Manjaro-ARM-nemomobile-pinephone-0.94.img.xz" | dd if=/dev/stdin of=/dev/mmcblk0 status=progress conv=fsync bs=4M
   ```
   * To install onto the eMMC, use the [JumpDrive](https://github.com/dreemurrs-embedded/Jumpdrive) tool.
 
