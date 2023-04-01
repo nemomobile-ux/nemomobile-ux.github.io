@@ -52,7 +52,7 @@ crashing when attempting to connect to ngfd via dbus. This issue was resolved by
 [new dbus functions](https://github.com/nemomobile-ux/nemo-packaging/blob/master/telepathy-ring/0002-fixup_connection.patch).
 
 The ngfd was experiencing segfaults, which were resolved by identifying the cause of the crashes and [providing a patch upstream](https://github.com/sailfishos/ngfd/pull/8).
-After adjusting the configuration for the PinePhone, haptic feedback began working in the hardware testing application.
+After [adjusting the configuration for the PinePhone](https://github.com/nemomobile-ux/ngfd-settings-nemo/pull/1), haptic feedback began working in the hardware testing application.
 However, phone calls are still experiencing issues, indicating that there may be further unresolved problems.
 
 ## Improving code base
