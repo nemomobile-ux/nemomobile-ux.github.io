@@ -2,7 +2,7 @@
 layout: post
 title: Nemomobile in March 2023
 excerpt: 
-modified: 2023-02-24
+modified: 2023-03-31
 author: jmlich
 tags: ["Lipstick", "Device lock"]
 image:
