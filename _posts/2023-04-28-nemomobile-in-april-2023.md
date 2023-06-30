@@ -40,4 +40,4 @@ The LinuxAppSummit conference was held in Brno on April 22-23 and covered many t
 flutter, app testing, accessibility, and more. The conference concluded with a lightning talk
 on [NemoMobile](https://conf.linuxappsummit.org/event/5/contributions/178/).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J7-3Qj_oVMM?start=24818" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ya0nSC-68OU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
