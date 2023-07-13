@@ -28,9 +28,7 @@ range of topics, ranging from Kubernetes and containers to Kernel development. W
 the track titled “Edge, Mobile, and Automotive,” there was a [dedicated session](https://devconfcz2023.sched.com/event/1MYj7/is-nemomobile-suitable-for-automotive) discussing
 NemoMobile.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tfBFaEXsRck?start=13765" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-(starting at 3:49:27)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pduW-w7Um4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The selection of this topic aimed to attract automotive developers, despite NemoMobile itself not specifically targeting that domain.
 
