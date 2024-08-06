@@ -2,7 +2,7 @@
 layout: post
 title:  Nemomobile from March to May 2024 
 excerpt: 
-modified: 2024-03-01
+modified: 2024-06-01
 author: jmlich
 tags: ["Bluetooth", "Manjaro", "Open Build Service", "Lipstick"]
 image: 
