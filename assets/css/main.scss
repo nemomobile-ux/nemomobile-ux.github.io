@@ -3,7 +3,6 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import url('font-awesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
@@ -75,6 +74,10 @@ a.btn-social:hover {
 }
 .linkedin {
     background-color: #0077b5;
+}
+
+.mastodon {
+    background-color: #6364FF;
 }
 
 .reddit {

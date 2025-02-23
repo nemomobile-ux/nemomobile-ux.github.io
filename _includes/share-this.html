@@ -1,9 +1,32 @@
+<script type="application/javascript">
+function shareMastodon() {
+    let instance = document.cookie.split('; ').find(row => row.startsWith('mastodon_instance='))?.split('=')[1];
+    if (!instance) {
+        instance = prompt("Enter your Mastodon instance (e.g., mastodon.social):");
+        if (instance) {
+            document.cookie = `mastodon_instance=${encodeURIComponent(instance)}; path=/; max-age=${365 * 24 * 60 * 60}`;
+        }
+    }
+    if (instance) {
+        let url = encodeURIComponent("{{ page.url | replace:'index.html','' | prepend: site.url }}");
+        let text = encodeURIComponent(document.title);
+        let shareUrl = `https://${instance}/share?text=${text}&url=${url}`;
+        window.open(shareUrl, '_blank');
+    }
+    return false;
+}
+</script>
+
 <div style="clear: both;">
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share</a>
-	<a class="btn-social linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.url }}&title={{ page.title | escape | replace:' ','%20' }}"> <i class="fa fa-linkedin" aria-hidden="true"></i> Share</a>
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</a>
-	<a class="btn-social reddit" href="https://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.url }}&title={{ page.title | escape | replace:' ','%20' }}"> <i class="fa fa-reddit" aria-hidden="true"></i> Share </a>
-	<a class="btn-social pinterest" href="https://pinterest.com/pin/create/button/?url={{ page.url | replace:'index.html','' | prepend: site.url }}&media={{ page.image.thumb | escape }}&description={{ page.title | escape | replace:' ','%20' }}"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin it</a>
+	<a class="btn-social mastodon" href="#" onclick="return shareMastodon()"><i class="fa fa-brands fa-mastodon" aria-hidden="true"></i> Share</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-brands fa-facebook" aria-hidden="true"></i> Share</a>
+	<a class="btn-social linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.url }}&title={{ page.title | escape | replace:' ','%20' }}"> <i class="fa fa-brands fa-linkedin" aria-hidden="true"></i> Share</a>
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-brands fa-twitter" aria-hidden="true"></i> Tweet</a>
+	<a class="btn-social reddit" href="https://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.url }}&title={{ page.title | escape | replace:' ','%20' }}"> <i class="fa fa-brands fa-reddit" aria-hidden="true"></i> Share </a>
+	<a class="btn-social pinterest" href="https://pinterest.com/pin/create/button/?url={{ page.url | replace:'index.html','' | prepend: site.url }}&media={{ page.image.thumb | escape }}&description={{ page.title | escape | replace:' ','%20' }}"><i class="fa fa-brands fa-pinterest" aria-hidden="true"></i> Pin it</a>
+
+</a>
+
 </div><!-- /.share-this -->
 <div style="clear: both;"> &nbsp;
 </div>
