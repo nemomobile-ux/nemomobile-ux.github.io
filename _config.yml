@@ -52,5 +52,6 @@ social:
   telegram: https://telegram.me/nemomobile
   matrix: https://matrix.to/#/#nemomobile:matrix.org
   rss: /feed.xml
+  mastodon: https://mastodon.social/@nemomobile
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

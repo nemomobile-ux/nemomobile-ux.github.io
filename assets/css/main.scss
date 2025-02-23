@@ -2084,3 +2084,130 @@ a.btn-social:hover {
       }
 
   }
+
+
+
+/* Comments */
+
+section#comments {
+  #comments-wrapper {
+    margin: 1.5em 0;
+    padding: 0 var(--card-padding);
+  }
+  .comment {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-areas:
+      "avatar name"
+      "avatar time"
+      "avatar post"
+      "...... interactions";
+    grid-template-columns: min-content;
+    justify-items: start;
+    margin: 0em auto 0em -1em;
+    padding: 0.5em;
+    &.comment-reply {
+      margin: 0em auto 0em 1em;
+    }
+    .avatar-link {
+      grid-area: avatar;
+      height: 4rem;
+      position: relative;
+      width: 4rem;
+      .avatar {
+        height: 100%;
+        width: 100%;
+      }
+      &.op::after {
+        background-color:  _palette(accent2, bg);
+        border-radius: 50%;
+        bottom: -0.25rem;
+        color: _palette(accent2, fg-bold);
+
+        content: "✓";
+        display: block;
+        font-size: 1.25rem;
+        font-weight: bold;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        position: absolute;
+        right: -0.25rem;
+        text-align: center;
+        width: 1.5rem;
+      }
+    }
+    .author {
+      align-items: center;
+      display: flex;
+      font-weight: bold;
+      gap: 0.5em;
+      grid-area: name;
+      .instance {
+        background-color: _palette(border);
+        border-radius: 9999px;
+        color: var(--neutral);
+        font-size: smaller;
+        font-weight: normal;
+        padding: 0.25em 0.75em;
+        &:hover {
+          opacity: 0.8;
+          text-decoration: none;
+        }
+        &.op {
+          background-color: _palette(accent2, bg);
+          color: _palette(accent2, fg-bold);
+          &::before {
+            content: "✓";
+            font-weight: bold;
+            margin-inline-end: 0.25em;
+            margin-inline-start: -0.25em;
+          }
+        }
+      }
+    }
+    time {
+      @extend small;
+      grid-area: time;
+      line-height: 1.5rem;
+    }
+    main {
+      grid-area: post;
+      p:first-child {
+        margin-top: 0.25em;
+      }
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+    footer {
+      @extend small;
+      grid-area: interactions;
+
+      .faves {
+        color: inherit;
+        &:hover {
+          opacity: 0.8;
+          text-decoration: none;
+        }
+        &::before {
+          color: red;
+          content: "♥";
+          font-size: 2rem;
+          margin-inline-end: 0.25em;
+        }
+      }
+    }
+    .emoji {
+      display: inline;
+      height: 1.25em;
+      vertical-align: middle;
+      width: 1.25em;
+    }
+    .invisible {
+      display: none;
+    }
+    .ellipsis::after {
+      content: "…";
+    }
+  }
+}
