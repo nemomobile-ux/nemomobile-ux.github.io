@@ -24,9 +24,6 @@ function shareMastodon() {
 	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-brands fa-twitter" aria-hidden="true"></i> Tweet</a>
 	<a class="btn-social reddit" href="https://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.url }}&title={{ page.title | escape | replace:' ','%20' }}"> <i class="fa fa-brands fa-reddit" aria-hidden="true"></i> Share </a>
 	<a class="btn-social pinterest" href="https://pinterest.com/pin/create/button/?url={{ page.url | replace:'index.html','' | prepend: site.url }}&media={{ page.image.thumb | escape }}&description={{ page.title | escape | replace:' ','%20' }}"><i class="fa fa-brands fa-pinterest" aria-hidden="true"></i> Pin it</a>
-
-</a>
-
 </div><!-- /.share-this -->
 <div style="clear: both;"> &nbsp;
 </div>
