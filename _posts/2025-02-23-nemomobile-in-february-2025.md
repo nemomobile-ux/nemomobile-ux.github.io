@@ -12,6 +12,10 @@ image:
   feature: 2025-02-23-nemomobile-in-february-2025/kremium.jpg
   teaser: 2025-02-23-nemomobile-in-february-2025/kremium.jpg
   thumb: 2025-02-23-nemomobile-in-february-2025/kremium.jpg
+comments:
+  host: mastodon.social
+  username: nemomobile
+  id: 114053650316753237
 ---
 
 It’s been a while since the last update. We’ve been migrating Nemo to Qt6, fixing compatibility
