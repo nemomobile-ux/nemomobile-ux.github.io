@@ -1,18 +1,21 @@
 <script type="application/javascript">
 function shareMastodon() {
     let instance = document.cookie.split('; ').find(row => row.startsWith('mastodon_instance='))?.split('=')[1];
-    if (!instance) {
-        instance = prompt("Enter your Mastodon instance (e.g., mastodon.social):");
-        if (instance) {
-            document.cookie = `mastodon_instance=${encodeURIComponent(instance)}; path=/; max-age=${365 * 24 * 60 * 60}`;
-        }
+    instance = instance ? decodeURIComponent(instance) : ""; // Decode stored value if present
+
+    let newInstance = prompt("Enter your Mastodon instance (e.g., mastodon.social):", instance);
+
+    if (newInstance && newInstance !== instance) {
+        document.cookie = `mastodon_instance=${encodeURIComponent(newInstance)}; path=/; max-age=${365 * 24 * 60 * 60}`;
     }
-    if (instance) {
+
+    if (newInstance) {
         let url = encodeURIComponent("{{ page.url | replace:'index.html','' | prepend: site.url }}");
         let text = encodeURIComponent(document.title);
-        let shareUrl = `https://${instance}/share?text=${text}&url=${url}`;
+        let shareUrl = `https://${newInstance}/share?text=${text}&url=${url}`;
         window.open(shareUrl, '_blank');
     }
+
     return false;
 }
 </script>
