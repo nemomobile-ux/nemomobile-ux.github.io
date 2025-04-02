@@ -28,7 +28,7 @@ For developing look on [Software Development Kit](/sdk/) and our [Application Pr
 ```
 [nemomobile]
 SigLevel = Optional
-Server = https://img.nemomobile.net/manjaro/05.2023/stable/x86_64/
+Server = https://img.nemomobile.net/manjaro/stable/$arch/
 ```
 
 * Install NemoMobile packages
