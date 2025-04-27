@@ -12,6 +12,10 @@ image:
   feature: 2025-04-25-nemomobile-in-march-and-april-2025/5213158676444082200.jpg
   teaser: 2025-04-25-nemomobile-in-march-and-april-2025/5213158676444082200.jpg
   thumb: 2025-04-25-nemomobile-in-march-and-april-2025/5213158676444082200.jpg
+comments:
+  host: mastodon.social
+  username: nemomobile
+  id: 114405366648025682
 ---
 
 This update covers recent progress in the Nemo Mobile project on Manjaro.
