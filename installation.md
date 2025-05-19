@@ -33,9 +33,10 @@ Server = https://img.nemomobile.net/manjaro/stable/$arch/
 
 * Install NemoMobile packages
 ```
-pacman -S --noconfirm $(pacman -Slq nemomobile)
+pacman -S glacier-wayland-session
 ```
 
+* Install other [packages](https://github.com/nemomobile-ux/arm-profiles/blob/master/editions/nemomobile)
 * Enable mce daemon by running `systemctl enable mce`
 * Enable dsme daemon by running `systemctl enable dsme`
 * Disable device display going blank `mcetool -j enabled`
