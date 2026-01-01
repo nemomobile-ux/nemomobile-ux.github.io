@@ -8,3 +8,4 @@ gem 'sassc'
 gem "webrick"
 gem 'csv'
 gem 'base64'
+gem 'logger'
