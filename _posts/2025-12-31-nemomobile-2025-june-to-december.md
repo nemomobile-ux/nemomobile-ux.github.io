@@ -13,7 +13,10 @@ image:
   feature: 2025-12-31-nemomobile-2025-june-to-december/photo_5193074726468189971_y.jpg
   teaser: 2025-12-31-nemomobile-2025-june-to-december/photo_5193074726468189971_y.jpg
   thumb: 2025-12-31-nemomobile-2025-june-to-december/photo_5193074726468189971_y.jpg
-
+comments:
+  host: mastodon.social
+  username: nemomobile
+  id: 115821297780186780
 ---
 
 The progress is not as fast as all of us hope for, but development continues steadily.
