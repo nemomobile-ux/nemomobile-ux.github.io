@@ -26,3 +26,4 @@ For developing look on [Software Development Kit](/sdk/) and our [Application Pr
 * Download latest qcow2 image from [OBS](https://download.opensuse.org/repositories/devel:/NemoMobile/images/) (for example [openSUSE-Tumbleweed-x86_64-NEMO-efi.x86_64-2025.12.13-Build12.1.qcow2](https://download.opensuse.org/repositories/devel:/NemoMobile/images/openSUSE-Tumbleweed-x86_64-NEMO-efi.x86_64-2025.12.13-Build12.1.qcow2))
 * Use it as a disk image of virtual machine
 * Start virtual machine
+* login `root/linux` or `nemo/1234`
